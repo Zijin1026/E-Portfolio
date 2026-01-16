@@ -7,20 +7,17 @@ about:
   links: 
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/ramon-melser-666932129/
-    - icon: twitter
-      text: Twitter/X
-      href: https://x.com/MelserRamon
+      href: www.linkedin.com/in/zijin-xiao-4a40b72ba
     - icon: github
       text: GitHub
-      href: https://github.com/ramonmelser
+      href: https://github.com/Zijin1026
     - icon: envelope-at
       text: Email
-      href: mailto:melser@student.ubc.ca
+      href: xiaozijin2024@gmail.com
 ---
 
 Hey there people,
 
-This is your E-Portfolio landing page. Be sure to upload a professional headshot of yourself, and provide the appropriate links to your professional social media (linkedin, X/Twitter, etc). This is also a good place to provide a short summary of your education, career and interests. If you are associated with a lab or working with a research supervisor, it may be appropriate to provide some information on that here, along with links to relevant websites.
+I am a new Master graduate from UBC MGEM program and ready to participate and contribute to my future workplace!!!!
 
 Write something about myself, very exciting.

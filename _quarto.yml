@@ -15,13 +15,20 @@ website:
       - href: content.qmd
         text: Content & Deliverables
       - href: contact.qmd
-        text: contact Info
+        text: Contact Info
 
 format:
   html:
-    theme: flatly
+    theme: 
+      - lumen
+      - cerulean.scss
     css: styles.css
     toc: true
+    fontsize: 1.1em
+    linestretch: 1.7
+    respect-user-color-scheme: true
+    
 
+    
 editor: visual
 

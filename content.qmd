@@ -70,7 +70,6 @@ The full-screen GEE application is available [here](https://ee-melserramon.proje
 
 (To use the GEE tool, navigate to any city you'd like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)
 
-
 ```{=html}
 <iframe width="900" height="700" src="https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool"></iframe>
 ```
