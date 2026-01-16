@@ -19,14 +19,22 @@ website:
 
 format:
   html:
-    theme: 
-      - lumen
-      - cerulean.scss
+    theme:
+      light: lumen
+      dark: darkly
     css: styles.css
     toc: true
+    toc-depth: 3
+    toc-location: right
+    smooth-scroll: true
     fontsize: 1.1em
     linestretch: 1.7
+    code-fold: true
+    code-tools: true
+    highlight-style: github
+    anchor-sections: true
     respect-user-color-scheme: true
+
     
 
     
