@@ -1,9 +1,3 @@
----
-title: "Contact"
-format: html
-editor: visual
----
-
 ## Email:
 
 xiaozijin2024\@gmail.com

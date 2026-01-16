@@ -58,21 +58,21 @@
   {
     "objectID": "contact.html",
     "href": "contact.html",
-    "title": "Contact",
+    "title": "",
     "section": "",
-    "text": "xiaozijin2024@gmail.com"
+    "text": "Code"
   },
   {
     "objectID": "contact.html#email",
     "href": "contact.html#email",
-    "title": "Contact",
-    "section": "",
-    "text": "xiaozijin2024@gmail.com"
+    "title": "",
+    "section": "Email:",
+    "text": "Email:\nxiaozijin2024@gmail.com"
   },
   {
     "objectID": "contact.html#phone",
     "href": "contact.html#phone",
-    "title": "Contact",
+    "title": "",
     "section": "Phone",
     "text": "Phone\n2369665760"
   }
