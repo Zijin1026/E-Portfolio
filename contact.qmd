@@ -1,4 +1,6 @@
-
+---
+title: "Resume"
+---
 ## Email:
 
 xiaozijin2024\@gmail.com
