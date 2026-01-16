@@ -1,6 +1,6 @@
 ---
-title: "My E-Portfolio"
-image: images/MGEM_logo.png
+title: "Zijin(Sarah) Xiao"
+image: images/me.jpg
 about:
   template: trestles
   image-width: 20em
