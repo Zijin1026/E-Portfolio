@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Zijin(Sarah) Xiao",
     "section": "",
-    "text": "Hey there people,\nI am a new Master graduate from UBC MGEM program and ready to participate and contribute to my future workplace!!!!\nWrite something about myself, very exciting."
+    "text": "Hi there people,\n\nI am a new Master graduate from UBC Master of Geomatics for Environmental Management (MGEM) program and ready to participate and contribute to my future workplace!!!! With past 5 years of study in Geography and GIS_related field, I am confident to show I have gotten strong analytical and critical thinking skills, specializing in data visualization and cartographic design. Proficient in a wide range of geospatial software, office tools and picture editing platforms, including ESRI, ArcGIS Pro, QGIS, Microsoft Office Suite, Adobe Illustrator, etc. Proficient in coding with Python and R for geospatial data analysis, automation, and statistical modeling. Demonstrated strengths in multitasking, time management, and team collaboration, with a proven ability to work efficiently in project-oriented environments.\nOver the past five years of my academic career, I have participated in numerous projects related to remote sensing, programming, and GIS. You can explore the “Map Gallery”/Project Conetent” section for further details."
   },
   {
     "objectID": "resume.html",
     "href": "resume.html",
     "title": "Resume",
     "section": "",
-    "text": "Education\n\nList your education here.\n\n\n\nPublications\nPeer-reviewed publications:\n\nList any peer-reviewed publications here.\n\nReports:\n\nList any non-peer reviewed materials you’d like to share here.\n\n\n\nConferences & Talks\nInvited Talks\n\nIf you’ve been invited to speak in a professional setting, list that here.\n\nConference Presentations\n\nIf the presentation was at a conference, list them here.\n\n\n\nAwards & Honors\n\nList any scholarships, bursaries, etc.\n\n\n\nTeaching Assistantships\n\nList any TA positions you may have held.\n\n\n\nInstitutional Service\n\nVolunteering etc."
+    "text": "##\n\nEducation\n\n\n\nTeaching Assistant Master of Geomatics for Environmental Management, UBC Faculty of Forestry, Vancouver, BC\n\n\nCompletion: 2026\n\n\n\nCapstone Project: Evaluating and comparing the performance of current VRI data and LiDAR-derived stand metrics across different geospatial features in UBC’s MKRF, BC. ( detail see “Project Content”)\n\n\n\n\nBachelor of Arts, UBC Faculty of Arts, Vancouver, BC\n\n\nCompletion: 2025\n\n\n\nSpecialization: Geography, Environment & Sustainability.\n\n \n##\n\nAwards & Honors\n\n\nOutstanding International Student Award of $10,000, UBC (2021)\nFaculty of Arts International Student Scholarship of $5,500.00, UBC (2023)\nFaculty of Arts International Student Scholarship of $5,000.00, UBC (2024)\n\n \n\nTeaching Assistantships\n\n\n\nCHIN131/231 Teaching assistant, UBC Department of Asian Studies, Vancouver, BC\n\n\nMay 2024 – April 2025\n\n\n\nAttending weekly tutorial sessions.\n\n\nContribute to the development and maintenance of the course web page; assist in editing text materials.\n\n\nAssisting with the devising and participating in team meetings and events.\n\n\nReview, correct, and comment on student work weekly; identify and report issues, including but not limited to academic misconduct, technical errors, and material omissions.\n\n\n\n\n\n\nCHIN405 OER, UBC Department of Asian Studies, Vancouver, BC\n\n\nMay 2024 – August 2024\n\n\n\nAssist in designing web pages to incorporate course/instructor requirements into the web design\n\n\nModify, maintain, and update course webpages\n\n\nCreate web page tutorials, including written instructions and video recordings\n\n\n\n \n\nInstitutional Service\n\n\n\nAssorted Farm Tasks, UBC Farm volunteer program, Vancouver, BC\n\n\nMay 2023 – June 2023\n\n\n\nPromote the understanding of various crops, process and join the routine tasks for the crop growth.\n\n\nHandle detailed, tedious, and energy-consuming work.\n\n\nWeed and harvest crops like strawberries, carrots, and lettuce."
   },
   {
     "objectID": "publications.html",
@@ -32,7 +32,7 @@
     "href": "content.html",
     "title": "Content & Deliverables",
     "section": "",
-    "text": "This is a sample page where you can archive project deliverables. Every header you use will correspond to a tab in the legend - shown on the right-hand side of your screen (“On this page”).\nIf you’ve produced any GIS layers for your 599 project, this may be a good place to share them as interactive maps through leaflet. Alternatively, you can upload high-res figures showing correlations, box-plots, etc. from your report here, and provide a brief overview of key project results. If you have written some useful functions, you may also want to share those here to demonstrate proficiency in particular coding languages or synergies between notable coding packages.\n\n\nSample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page here.\n\n\n\n\n\n\n\n\n\nSample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a ‘tabset’ in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let’s showcase a function for calculating NDVI in R and Python.\n\nRPython\n\n\ncalc_ndvi &lt;- function(nir, red){\n  ndvi &lt;- (nir-red)/(nir+red)\n  return(ndvi)\n}\n(Assuming nir and red are terra rast objects)\n\n\ndef calc_ndvi(nir, red): \n  ndvi = (nir - red)/(nir + red)\n  return(ndvi)\n(Assuming nir and red are numpy arrays)\n\n\n\n\n\n\nYou can also provide a frame linking to external websites. For example, here is a Google Earth Engine application I developed - which I embedded in this webpage using the code below:\n\n\nCode\n\n&lt;iframe width=\"900\" height=\"700\"\nsrc=\"https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool\"&gt;\n&lt;/iframe&gt;\n\n\nThe full-screen GEE application is available here in case you’re interested.\n(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)"
+    "text": "This is a sample page where you can archive project deliverables. Every header you use will correspond to a tab in the legend - shown on the right-hand side of your screen (“On this page”).\nIf you’ve produced any GIS layers for your 599 project, this may be a good place to share them as interactive maps through leaflet. Alternatively, you can upload high-res figures showing correlations, box-plots, etc. from your report here, and provide a brief overview of key project results. If you have written some useful functions, you may also want to share those here to demonstrate proficiency in particular coding languages or synergies between notable coding packages.\n\n\nSample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page here.\n\n\n\n\n\n\n\n\n\n\nSample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a ‘tabset’ in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let’s showcase a function for calculating NDVI in R and Python.\n\nRPython\n\n\ncalc_ndvi &lt;- function(nir, red){\n  ndvi &lt;- (nir-red)/(nir+red)\n  return(ndvi)\n}\n(Assuming nir and red are terra rast objects)\n\n\ndef calc_ndvi(nir, red): \n  ndvi = (nir - red)/(nir + red)\n  return(ndvi)\n(Assuming nir and red are numpy arrays)\n\n\n\n\n\n\nYou can also provide a frame linking to external websites. For example, here is a Google Earth Engine application I developed - which I embedded in this webpage using the code below:\n\n\nCode\n\n&lt;iframe width=\"900\" height=\"700\"\nsrc=\"https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool\"&gt;\n&lt;/iframe&gt;\n\n\nThe full-screen GEE application is available here in case you’re interested.\n(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)"
   },
   {
     "objectID": "content.html#leaflet",
@@ -58,22 +58,29 @@
   {
     "objectID": "contact.html",
     "href": "contact.html",
-    "title": "",
+    "title": "Contact",
     "section": "",
-    "text": "Code"
+    "text": "Email\n\nxiaozijin2024@gmail.com\n\nPhone\n\n2369665760"
   },
   {
     "objectID": "contact.html#email",
     "href": "contact.html#email",
-    "title": "",
-    "section": "Email",
-    "text": "Email\nxiaozijin2024@gmail.com"
+    "title": "Contact",
+    "section": "",
+    "text": "xiaozijin2024@gmail.com"
   },
   {
     "objectID": "contact.html#phone",
     "href": "contact.html#phone",
-    "title": "",
+    "title": "Contact",
     "section": "Phone",
     "text": "Phone\n2369665760"
+  },
+  {
+    "objectID": "map_gallery.html",
+    "href": "map_gallery.html",
+    "title": "Map Gallery",
+    "section": "",
+    "text": "Proposal of examining The Species Composition of Petawawa Research Forest\n\n\n\n\nResearch & Area of Interest:\n\nThis project utilizes airborne laser scanning (ALS) data and provided climate databases, combined with Python-based Classification tools (sklearn-RandomForestClassifier), to rank dominant tree species within the Petawawa Research Forest (PRF) while investigating their approximate distribution patterns.\n\n\n\n Research Area Overview\n\n\n\n\n   Both the map and histogram were generated using Python.\n\n\n\n\nResult:\n\nThe results are quite clear: white pine is the most dominant species. However, it is worth noting that the current model is constrained by the limited training ground plots, resulting in an overall accuracy of only 58%. Furthermore, the model incorrectly classifies unvegetated areas, such as water bodies, as a single species distribution. This aspect requires improvement. Nevertheless, the expected results still demonstrate the feasibility of our approach.\n\n\n \n\nThe Most Livable Space in the Great Vancouver\n\nInteract with widgets to find the Dissemination Area that best suits your needs. Data sourced from multiple public sources, Landsat satellites, and government websites. Data overview as follows:\n\n\nFor more info, click and download:  https://github.com/Zijin1026/FCOR599-Term1Presentation/blob/main/FinalMap.ipynb\n \n\nImage design for reference:\n\nAll images are intended for academic purposes, thus prioritizing static maps. Aesthetically, they favor simplicity, high recognizability, and dense information content."
   }
 ]

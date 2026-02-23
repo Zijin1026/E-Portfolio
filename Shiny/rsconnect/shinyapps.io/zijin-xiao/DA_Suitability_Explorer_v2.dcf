@@ -1,0 +1,12 @@
+name: DA_Suitability_Explorer_v2
+title:
+username: zijin-xiao
+account: zijin-xiao
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 16728984
+bundleId: 11610046
+url: https://zijin-xiao.shinyapps.io/DA_Suitability_Explorer_v2/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

@@ -1,7 +1,19 @@
-## Email
+---
+title: "Contact"
+format:
+  html:
+    theme: superhero
+    css: styles.css
+    toc: true
+    toc-location: right
+    toc-title: "On this page"
+    toc-depth: 3
+---
+
+<h2>Email</h2>
 
 xiaozijin2024\@gmail.com
 
-## Phone
+<h2>Phone</h2>
 
 2369665760

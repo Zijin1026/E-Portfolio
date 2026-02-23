@@ -1,6 +1,8 @@
 ---
 title: "Content & Deliverables"
-format: html
+format:
+  html:
+    theme: superhero
 editor: visual
 ---
 
@@ -25,7 +27,11 @@ m <- leaflet() %>%
 ```
 
 ```{r map, echo=FALSE}
+
 m
+```
+
+``` r
 ```
 
 ## Code Snippets
