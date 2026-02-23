@@ -12,14 +12,14 @@ format:
 
 <h2>Education</h2>
 
--  <div class="fw-semibold"><span class="text-primary">Teaching Assistant Master of Geomatics for Environmental Management,</span> UBC Faculty of Forestry, Vancouver, BC</div>
+<div class="fw-semibold"><span class="text-primary">Teaching Assistant Master of Geomatics for Environmental Management,</span> UBC Faculty of Forestry, Vancouver, BC</div>
 <div class="fst-italic text-muted text-end">*Completion: 2026*</div> 
 
 <ul class="mt-2 mb-0">Capstone Project: Evaluating and comparing the performance of current VRI data and LiDAR-derived stand metrics across different geospatial features in UBC’s MKRF, BC. ( detail see "Project Content")</ul>
 
 <br>
 
-- <div class="fw-semibold"><span class="text-primary">Bachelor of Arts,</span> UBC Faculty of Arts, Vancouver, BC</div>
+<div class="fw-semibold"><span class="text-primary">Bachelor of Arts,</span> UBC Faculty of Arts, Vancouver, BC</div>
 <div class="fst-italic text-muted text-end">*Completion: 2025*</div> 
 
 <ul class="mt-2 mb-0">Specialization: Geography, Environment & Sustainability.</ul>
