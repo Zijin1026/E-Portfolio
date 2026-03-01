@@ -6,33 +6,189 @@ format:
 editor: visual
 ---
 
-# Project 1 - Capstone Deliverables
+# Project 1 - Evaluating and comparing the performance of VRI data and LiDAR-derived stand metrics across different geospatial features in MKRF, BC
 
-This is a sample page where you can archive project deliverables. Every header you use will correspond to a tab in the legend - shown on the right-hand side of your screen ("On this page").
+## Introduction:
 
-If you've produced any GIS layers for your 599 project, this may be a good place to share them as interactive maps through leaflet. Alternatively, you can upload high-res figures showing correlations, box-plots, etc. from your report here, and provide a brief overview of key project results. If you have written some useful functions, you may also want to share those here to demonstrate proficiency in particular coding languages or synergies between notable coding packages.
+The Vegetation Resource Inventory (VRI) is a provincial database that records forest metrics across BC with outdated methods (BC Government., n.d.). In the modern context, VRI is no longer an ideal database for stand-level studies. The polygons contain limited information and are prone to overgeneralizing the metrics for the area within a polygon, which is likely due to and introduced by the aggregation and ecological effects (Holt et, al., 2010). However, VRI still actively participates in a lot of fields like estimating carbon stock, disturbance map updating, and various other fields today (Parshakov et. al., 2025; DellaSala et. al., 2022).
 
-## Leaflet
+In this Study, we compare VRI data (2019&2022) and LiDAR-derived data (2019&2022), both obtained from Malcolm Knapp Research Forest (MKRF). Our goals include: **1. Quantifying the discrepancy between the stand metrics derived from VRI and LiDAR**. We are concerned with stand volume, diameter, species composition, etc., as they tend to exhibit error patterns in different ways potentially. **2. Examining, summarizing, and mapping out any potential pattern of the discrepancy in relation to specific geophysical features.** We expect to observe more errors and/or a larger error range at the border of multiple succession stages or in rough, uneven terrain, as these areas exhibit greater microscale heterogeneity and pose a higher risk of overgeneralization.
 
-Sample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page [here](https://ubc-mgem-fcor599.github.io/FCOR-599-Workshops/Interactive_Maps/leaflet.html).
+## Data + Study Site Summary
+
+### Study Site Summary:
+
+The Malcolm Knapp Research Forest is located in Maple Ridge, BC, Canada. According to UBC Forestry (2025), MKRF is a traditional, ancestral, and unceded territory of the Katzie (q̓ic̓əy̓) First Nation; it has over 51 km2 of coastal forest hectares that fall entirely in the Coast Western Hemlock (CWH) biogeoclimatic zone. Common species also include Douglas-fir and Western red cedar. (UBC Forestry, 2025). The annual average rainfall in MKRF is between 2200 and 3000mm, showing a strong marine climate (UBC Forestry, 2025). MKRF contains a variety of minor topography. It exhibits a general decreasing gradient from the north-east side of the mountain to the south-west lowland (UBC Forestry, 2025). The area will be considered suitable for this research due to its high data availability, complex geomorphology, and sufficiently large study area, enabling the research to produce more precise and representative results regarding the different patterns.
 
 ```{r leaflet, include = FALSE}
-library(dplyr); library(leaflet)
+library(dplyr); library(leaflet); library(sf);library(janitor)
+StudyArea <- st_read("C:/Users/zj1026.stu/OneDrive - UBC/FCOR599/Term2/Guest Lecture/GuestLec3-E Portfolio/E-Portfolio/images/geo_layers/boundaries.gpkg")
+StudyArea <- st_transform(StudyArea, 4326)
 
-m <- leaflet() %>%
+
+StudySite <- leaflet() %>%
   addProviderTiles("Esri.WorldImagery") %>%
-  addScaleBar(position = c("bottomleft")) %>%
-  setView(-123.1207, 49.2827, zoom = 11)
-
+  addPolygons(data = StudyArea,
+              color = "yellow",
+              weight = 1,
+              fillOpacity = 0.1,
+              group = "StudyArea") %>%
+  addScaleBar(position = c("bottomleft"))%>%
+  setView(-122.5858, 49.3075, zoom = 11.25)
 ```
 
 ```{r map, echo=FALSE}
+StudySite
+```
 
+### Data Summary:
+
+The study will use the VRI data and LiDAR data from 2022, and a supportive boundary file from 2025.
+
+Vegetation Resource Inventory (VRI) data is from the BC Data Catalogue (2022). It provides all stand metrics and one geophysical metric for this study. The selected stand metrics capture stand structure in horizontal, vertical, and volumetric dimensions. We will take the column of canopy density, stand height, live stand volume (trees \>12.5 cm DBH), and vertical complexity into our comparison with those metrics derived from LiDAR. The geophysical metric, surface expression from VRI, add more details to geophysical consideration of the study by describing the subsurface structure, composition, and subtle morphology as whole.
+
+We obtain the LiDAR data through the laser scanner system: RIEGL VQ-1560II (RIEGL Laser Measurement Systems, 2022). Laser pulse repetition rates can be in steps of less than 12. It is also equipped with an IMU/GNSS unit that allows for seamless integration and a 150-megapixel RGB camera. The LiDAR also serves as the base of a series of derived models and raster files. Most of them have a resolution from 0.25m to 1m. Most of them have a resolution from 0.25m to 1m. A resolution of 1m will be chosen for downstream analysis to unify the spatial resolution and speed up data processing.
+
+| Data name | Source | Data type | Resolutions | Derived / Acquired | Theme | Details |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| VEG_COMP_LYR_R1_POLY_2022 | BC Government | Polygon | Depending on polygon size ( from 0.285m^2^ to1.200 |  |  |  |
+| km^2^) | Acquired | Vegetation Resource Inventory | Include metrics: Volume by Species/DBH, Foliage |  |  |  |
+| Biomass, Basal Area, Average DBH, Height, etc. |  |  |  |  |  |  |
+| boundaries | UBC | Polygon | 50.89km^2^ | Acquired | The boundary of MKRF | N/A |
+| ALS_2022 | Long-range airborne laser scanner system RIEGL |  |  |  |  |  |
+| LMS-Q1560 | Raster | 1m | Acquired | LiDAR data collected over the MKRF region | The raw LiDAR point clouds |  |
+|  |  |  |  | Derived | CHM | Canopy Height Model |
+|  |  |  |  | Derived | DTM | Digital Terrain Models |
+|  |  |  |  | Derived | Slope, altitude, TWI | A series of derived raster files from LiDAR |
+
+: Attributes of all Adopted data The table summarizes all data information with its data name, source, data type, resolution, theme, derived/acquired, and other details.
+
+## Method
+
+In general, the study uses statistical methods (Pearson coefficients, R ^2^ ) and maps to explore the potential difference/error pattern that happens between VRI and LiDAR stand metrics in response to geophysical conditions.
+
+![](images/workflow.png)
+
+-   Step1: The Pre-Data Processing - Calculated Stand/Geophysical Metrics from LiDAR Clouds
+
+    -   **Height**: Driven from CHM with 5m threshold (Di Gregorio & Jansen, 2001)
+
+    -   **Canopy Density**: Canopy covered area/ total area with the same threshold applied
+
+    -   **Volume**: Model from Tompalski et al. (2015). The study site of Tompalski et al. (2015)’s research shares similar forest composition and biogeoclimatic conditions (CWHxm) with the MKRF (UBC Forestry, 2025), the model coefficients are considered transferable.
+
+    -   **Geophysical Metrics**: Derived from DEM.
+
+-   Step2: Fitting a Model for VRI Stand Metrics to filter out the Geophysics-Related effect
+
+    -   With all data being processed and metrics are being calculated, we are going to explore the relationship between each stand metrics and geophysical metrics. However, we cannot assume the VRI stand metrics is entirely correlated to and dependent on the variation of geophysical metrics. After fitting the model, we can use the VRI stand metrics safely to compare with LiDAR-derived metrics.
+
+-   Step3: Calculating the Errors
+
+    -   The Result will be averaged based on the existing polygon, the overall error will be recorded in %, with each type of stand metric error being equally weighted.
+
+-   Step4: Exploring the Relationship between Each Stand Metrics and Geophysical Metrics.
+
+    -   Starting from paired scatterplots, to Pearson's coefficient, the spatial pattern analysis, etc.
+
+## Result
+
+### The Summary of General Error Pattern & Statistics:
+
+```{r leaflet, include = FALSE}
+vec1 <- st_read("images/geo_layers/datasummary5.shp")
+vec1 <- st_transform(vec1, 4326)
+
+brks <- quantile(vec1$dff_vrl, probs = seq(0, 1, length.out = 10), na.rm = TRUE)
+pal1 <- colorBin("RdYlBu", vec1$dff_vrl, reverse = TRUE, bins = brks, na.color = "transparent")
+
+overall <- leaflet() %>%
+  addProviderTiles("Esri.WorldImagery") %>%
+  addPolygons(data = vec1,
+              fillColor = ~pal1(dff_vrl),
+              color = "black",
+              fillOpacity = 0.9,
+              weight = 0.5,
+              group = "ErrorSummary") %>%
+  addLegend(data = vec1,
+            pal = pal1,
+            values = ~dff_vrl,
+            title = "Overall Error (%)",
+            position = "bottomright",
+            opacity = 0.8,na.label = NULL) %>%
+  addScaleBar(position = c("bottomleft")) %>%
+  setView(-122.5859, 49.3075, zoom = 11.5)
+```
+
+```{r map, echo=FALSE}
+overall
+```
+
+Three stand metric errors are normalized and weighted equally to get the overall error pattern. Significant error is shown by a more intense color, while less significant error is represented by light red/blue/yellow.
+
+```{r leaflet, include = FALSE}
+brks <- quantile(vec1$dff_CDn, probs = seq(0, 1, length.out = 6), na.rm = TRUE)
+pal2 <- colorBin("RdYlBu", vec1$dff_CDn, reverse = TRUE, bins = brks, na.color = "transparent")
+brks <- quantile(vec1$diff_he, probs = seq(0, 1, length.out = 6), na.rm = TRUE)
+pal3 <- colorBin("RdYlBu", vec1$diff_he, reverse = TRUE, bins = brks, na.color = "transparent")
+brks <- quantile(vec1$diff_vl, probs = seq(0, 1, length.out = 6), na.rm = TRUE)
+pal4 <- colorBin("RdYlBu", vec1$diff_vl, reverse = TRUE, bins = brks, na.color = "transparent")
+
+
+m <- leaflet(data = vec1) %>%
+  addProviderTiles("Esri.WorldImagery") %>%
+  addPolygons(group = "CanopyDensityError",
+              fillColor =  ~pal2(dff_CDn),
+              fillOpacity = 1,
+              color = "black", weight = 0.25) %>%
+  addPolygons(group = "HeightError",
+              fillColor =  ~pal3(diff_he),
+              fillOpacity = 1,
+              color = "black", weight = 0.25) %>%
+  addPolygons(group = "VolumeError",
+              fillColor =  ~pal4(diff_vl),
+              fillOpacity = 1,
+              color = "black", weight = 0.25) %>%
+  addLayersControl(
+    overlayGroups = c("CanopyDensityError","HeightError","VolumeError"),
+    options = layersControlOptions(collapsed = FALSE)
+  ) %>%
+  addLegend(pal = pal2, 
+            values = ~dff_CDn, 
+            title = "CanopyDensityError(%)", 
+            position = "bottomleft", 
+            opacity = 0.8,na.label = NULL) %>%
+  addLegend(pal = pal3,  
+            values = ~diff_he, 
+            title = "HeightError(m)",       
+            position = "bottomright",    
+            opacity = 0.8,na.label = NULL) %>%
+  addLegend(pal = pal4,  
+            values = ~diff_vl, 
+            title = "VolumeError(m³)",       
+            position = "bottomleft", 
+            opacity = 0.8,na.label = NULL) %>%
+  addScaleBar(position = c("bottomleft")) %>%
+  setView(-122.5859, 49.3075, zoom = 11.5)
+```
+
+```{r map, echo=FALSE}
 m
 ```
 
-``` r
-```
+The summarization of three different types of standard error. Significant error is shown by a more intense color, while less significant error is represented by light red/blue/yellow.
+
+### **Expected Error Pattern in Response to Geophysical Metrics:**
+
+![](images/Rplot1.png)
+
+![](images/Rplot4.png)
+
+![](images/Rplot5.png)
+
+![](images/Rplot6.png)
+
+### **The Summary of Spatial Error Distribution Pattern in Relation to Geophysical Metrics:**
 
 ## Code Snippets
 

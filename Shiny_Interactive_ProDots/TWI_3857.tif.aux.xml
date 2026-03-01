@@ -1,0 +1,17 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>Band_1</Description>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">-2.051698923111</MDI>
+      <MDI key="STATISTICS_MAXIMUM">14.202764511108</MDI>
+      <MDI key="STATISTICS_MEAN">3.2459611485247</MDI>
+      <MDI key="STATISTICS_STDDEV">1.2649327853329</MDI>
+      <MDI key="STATISTICS_MEDIAN">nan</MDI>
+      <MDI key="STATISTICS_COUNT">1027258.000000</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_COVARIANCES">1.6000549514101</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
