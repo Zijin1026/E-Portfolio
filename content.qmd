@@ -20,9 +20,9 @@ In this Study, we compare VRI data (2019&2022) and LiDAR-derived data (2019&2022
 
 The Malcolm Knapp Research Forest is located in Maple Ridge, BC, Canada. According to UBC Forestry (2025), MKRF is a traditional, ancestral, and unceded territory of the Katzie (q̓ic̓əy̓) First Nation; it has over 51 km2 of coastal forest hectares that fall entirely in the Coast Western Hemlock (CWH) biogeoclimatic zone. Common species also include Douglas-fir and Western red cedar. (UBC Forestry, 2025). The annual average rainfall in MKRF is between 2200 and 3000mm, showing a strong marine climate (UBC Forestry, 2025). MKRF contains a variety of minor topography. It exhibits a general decreasing gradient from the north-east side of the mountain to the south-west lowland (UBC Forestry, 2025). The area will be considered suitable for this research due to its high data availability, complex geomorphology, and sufficiently large study area, enabling the research to produce more precise and representative results regarding the different patterns.
 
-```{r leaflet, include = FALSE}
-library(dplyr); library(leaflet); library(sf);library(janitor)
-StudyArea <- st_read("C:/Users/zj1026.stu/OneDrive - UBC/FCOR599/Term2/Guest Lecture/GuestLec3-E Portfolio/E-Portfolio/images/geo_layers/boundaries.gpkg")
+```{r leaflet_1, include = FALSE}
+library(dplyr); library(leaflet); library(sf)
+StudyArea <- st_read("images/geo_layers/boundaries.gpkg")
 StudyArea <- st_transform(StudyArea, 4326)
 
 
@@ -37,7 +37,7 @@ StudySite <- leaflet() %>%
   setView(-122.5858, 49.3075, zoom = 11.25)
 ```
 
-```{r map, echo=FALSE}
+```{r map_1, echo=FALSE}
 StudySite
 ```
 
@@ -95,7 +95,7 @@ In general, the study uses statistical methods (Pearson coefficients, R ^2^ ) an
 
 ### The Summary of General Error Pattern & Statistics:
 
-```{r leaflet, include = FALSE}
+```{r leaflet_2, include = FALSE}
 vec1 <- st_read("images/geo_layers/datasummary5.shp")
 vec1 <- st_transform(vec1, 4326)
 
@@ -120,7 +120,7 @@ overall <- leaflet() %>%
   setView(-122.5859, 49.3075, zoom = 11.5)
 ```
 
-```{r map, echo=FALSE}
+```{r map_2, echo=FALSE}
 overall
 ```
 
