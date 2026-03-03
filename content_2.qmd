@@ -88,10 +88,12 @@ Several remote sensing applications introduced earlier—such as surface tempera
 | Social Instability Factor | Crime Rate                                      |
 +---------------------------+-------------------------------------------------+
 
+### Map Creation Workflow
+
 :::::: columns
 ::: {.column width="40%"}
-Map Creation Workflow:
-
+<br>
+<br>
 1.  Set up & Load Data
 2.  Create Control Panel​
 3.  Normalization & Suitability Calculation​
