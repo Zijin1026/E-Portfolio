@@ -5,7 +5,7 @@ h2 {
 /* Force trestles profile image to be circular */
 .quarto-about-trestles img {
   border-radius: 50% !important;
-  width: 300px;        /* adjust size if needed */
-  height: 300px;       /* must match width for circle */
+  width: 400px;        
+  height: 400px;       
   object-fit: cover;
 }

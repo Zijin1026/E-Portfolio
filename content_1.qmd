@@ -52,7 +52,7 @@ Vegetation Resource Inventory (VRI) data is from the BC Data Catalogue (2022). I
 We obtain the LiDAR data through the laser scanner system: RIEGL VQ-1560II (RIEGL Laser Measurement Systems, 2022). Laser pulse repetition rates can be in steps of less than 12. It is also equipped with an IMU/GNSS unit that allows for seamless integration and a 150-megapixel RGB camera. The LiDAR also serves as the base of a series of derived models and raster files. Most of them have a resolution from 0.25m to 1m. Most of them have a resolution from 0.25m to 1m. A resolution of 1m will be chosen for downstream analysis to unify the spatial resolution and speed up data processing.
 
 | Data name | Source | Data type | Resolutions | Derived / Acquired | Theme | Details |
-|----------|----------|----------|----------|----------|----------|----------|
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | VEG_COMP_LYR_R1_POLY_2022 | BC Government | Polygon | Depending on polygon size ( from 0.285m^2^ to1.200 | Acquired | Vegetation Resource Inventory | Biomass, Basal Area, Average DBH, Height, etc. |
 | boundaries | UBC | Polygon | 50.89km^2^ | Acquired | The boundary of MKRF | N/A |
 | ALS_2022 | Long-range airborne laser scanner system RIEGL | Raster | 1m | Acquired | LiDAR data collected over the MKRF region | The raw LiDAR point clouds. |

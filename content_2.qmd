@@ -44,13 +44,13 @@ Satellites can predict air quality by detecting atypical refraction/scattering o
 
 ### Remote Sensing for Detecting Radiation Receiving (Sunlight)​​
 
-Geostationary satellites measure narrowband reflectance at the top of the atmosphere, which is converted into broadband TOA albedo, then matched with radiative transfer lookup tables to estimate atmospheric transmittance based on airborne particles and surface properties. Using this transmittance, the algorithm calculates Surface Solar Irradiance (SSI), representing the amount of solar radiation reaching the ground.
+Geostationary satellites measure narrow band reflectance at the top of the atmosphere, which is converted into broadband TOA albedo, then matched with radiative transfer lookup tables to estimate atmospheric transmittance based on airborne particles and surface properties. Using this transmittance, the algorithm calculates Surface Solar Irradiance (SSI), representing the amount of solar radiation reaching the ground.
 
 ## Incorporate the Applications in Finding the Most Livable Place in the Great Vancouver​
 
 Our goal is to use a multi-criteria interactive map to identify the most livable places in Greater Vancouver.​
 
-Several remote sensing applications introduced earlier—such as surface temperature, vegetationconditions, air quality–related indicators are integrated into our map as part of the decision-makingfactors.​ These datasets are combined with other environmental and urban indicators, normalized to acomparable scale, and then used to calculate a livability score.
+Several remote sensing applications introduced earlier—such as surface temperature, vegetation conditions, air quality–related indicators are integrated into our map as part of the decision-making factors.​ These datasets are combined with other environmental and urban indicators, normalized to a comparable scale, and then used to calculate a livability score.
 
 ### Metric Introduction/Creation Workflow:
 
@@ -89,7 +89,7 @@ Several remote sensing applications introduced earlier—such as surface tempera
 +---------------------------+-------------------------------------------------+
 
 :::::: columns
-::: {.column width="65%"}
+::: {.column width="40%"}
 Map Creation Workflow:
 
 1.  Set up & Load Data
@@ -107,7 +107,7 @@ Map Creation Workflow:
 ::: {.column width="3%"}
 :::
 
-::: {.column width="32%"}
+::: {.column width="57%"}
 ![](images/workflow_interactive_map.png){width="100%"}
 
 ps: the workflow was first conducted in python using folium/ipywidgets, etc.
