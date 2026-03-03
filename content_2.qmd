@@ -1,18 +1,16 @@
 ---
-title: "Project 2: "
+title: "Project 2: Remote Sensing Used in Smart Urban Settings"
 format:
   html:
     theme: superhero
 editor: visual
 ---
 
-# Remote Sensing Used in Smart Urban Settings​
-
 Project Author: Zijin Xiao; ​Kelvin Lee; Xuan Dong; Willa Pepin​; Hengyin Liao
 
-## Possible Applications of Remote Sensing in Smart City Settings​
+# Possible Applications of Remote Sensing in Smart City Settings​
 
-### Remote Sensing for Urban Temperature Monitoring
+## Remote Sensing for Urban Temperature Monitoring
 
 TIR (Thermal Infrared) temperature refers to the measurement of land surface temperature using thermal infrared bands. Thermal Infrared (TIR) satellite example includes Landsat 8/9 TIRS (Band 10, Res 100m, 16-day revisit)​ & ECOSTRESS (ISS) (TIR, RES 70m, diurnal heat patterns), etc.
 
@@ -20,7 +18,7 @@ The satellite sensor measures top-of-atmosphere spectral radiance in the thermal
 
 This means a lot to a smart city in combat with higher health risk​ due to increasing heatwave frequency and intensity. It also reflects the energy demand pattern.
 
-### Remote Sensing for Urban Greenness Monitoring​
+## Remote Sensing for Urban Greenness Monitoring​
 
 Urban greening levels are typically evaluated using a variety of indices, such as the Normalized Difference Vegetation Index (NDVI). The Enhanced Vegetation Index (EVI) is a refined version of NDVI that incorporates additional adjustments for soil and atmospheric effects.
 
@@ -36,23 +34,23 @@ A city can do a lot with Greenness:
 
 -   Support smart-city environmental policy decisions
 
-### Remote Sensing for Urban Air Quality Monitoring​
+## Remote Sensing for Urban Air Quality Monitoring​
 
 This is a promising field, as current air pollution monitoring largely relies on ground stations. Remote sensing data provides more precise and continuous air quality information.
 
 Satellites can predict air quality by detecting atypical refraction/scattering of pollutants in the atmosphere across specific spectral bands. Consequently, NDVI, spectral ratios, and TOA reflectance can all infer relative aerosol concentration/pollution loading.
 
-### Remote Sensing for Detecting Radiation Receiving (Sunlight)​​
+## Remote Sensing for Detecting Radiation Receiving (Sunlight)​​
 
 Geostationary satellites measure narrow band reflectance at the top of the atmosphere, which is converted into broadband TOA albedo, then matched with radiative transfer lookup tables to estimate atmospheric transmittance based on airborne particles and surface properties. Using this transmittance, the algorithm calculates Surface Solar Irradiance (SSI), representing the amount of solar radiation reaching the ground.
 
-## Incorporate the Applications in Finding the Most Livable Place in the Great Vancouver​
+# Incorporate the Applications in Finding the Most Livable Place in the Great Vancouver​
 
 Our goal is to use a multi-criteria interactive map to identify the most livable places in Greater Vancouver.​
 
 Several remote sensing applications introduced earlier—such as surface temperature, vegetation conditions, air quality–related indicators are integrated into our map as part of the decision-making factors.​ These datasets are combined with other environmental and urban indicators, normalized to a comparable scale, and then used to calculate a livability score.
 
-### Metric Introduction/Creation Workflow:
+## Metric Introduction/Creation Workflow:
 
 +---------------------------+-------------------------------------------------+
 | Distance to Amenities     | Distance to CBD (Central Business District) (m)​ |
@@ -88,13 +86,13 @@ Several remote sensing applications introduced earlier—such as surface tempera
 | Social Instability Factor | Crime Rate                                      |
 +---------------------------+-------------------------------------------------+
 
-### Map Creation Workflow
+## Map Creation Workflow:
 
 ![](images/workflow_project2.png)
 
 ps: the workflow was first conducted in python using folium/ipywidgets, etc.
 
-### Instruction:
+## Instruction:
 
 -   Weight control:
 
@@ -116,12 +114,12 @@ ps: the workflow was first conducted in python using folium/ipywidgets, etc.
 
     -   The table summarizes the 10 most livable dissemination areas
 
-### Check the interactive map below:
+## Check the interactive map below:
 
 <iframe src="https://zijin-xiao.shinyapps.io/DA_Suitability_Explorer_v2/" width="100%" height="700px" style="border:none;">
 
 </iframe>
 
-## Summary:
+# Summary:
 
 This project is an excellent example of integrating remote sensing technology with multiple data sources and file types, applying in the smart city setting. Its significant potential for further development originates from two key factors: 1) the renovation of remote sensing technology, such as utilizing LiDAR to generate more detailed DEM models; and 2) the growing demand for geographic information in urban areas, coupled with increasingly constrained land use, making the remote acquisition of large volumes of data particularly crucial.
