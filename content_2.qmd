@@ -1,12 +1,12 @@
 ---
-title: "Content & Deliverables"
+title: "Project 2: "
 format:
   html:
     theme: superhero
 editor: visual
 ---
 
-# Project 2 - Remote Sensing Used in Smart Urban Settings​
+# Remote Sensing Used in Smart Urban Settings​
 
 Project Author: Zijin Xiao; ​Kelvin Lee; Xuan Dong; Willa Pepin​; Hengyin Liao
 
