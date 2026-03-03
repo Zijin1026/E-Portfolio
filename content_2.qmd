@@ -90,7 +90,7 @@ Several remote sensing applications introduced earlier—such as surface tempera
 
 ### Map Creation Workflow
 
-![](images/workflow_interactive_map.png)
+![](images/workflow_interactive.png){fig-align="center"}
 
 ps: the workflow was first conducted in python using folium/ipywidgets, etc.
 
