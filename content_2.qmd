@@ -90,31 +90,9 @@ Several remote sensing applications introduced earlier—such as surface tempera
 
 ### Map Creation Workflow
 
-:::::: columns
-::: {.column width="40%"}
-<br>
-<br>
-1.  Set up & Load Data
-2.  Create Control Panel​
-3.  Normalization & Suitability Calculation​
-4.  Build the Interactive Map Function​
-5.  Call the Map:​
-    -   control panel​
-
-    -   interactive map​
-
-    -   summary table​
-:::
-
-::: {.column width="3%"}
-:::
-
-::: {.column width="57%"}
-![](images/workflow_interactive_map.png){width="100%"}
+![](images/workflow_interactive_map.png)
 
 ps: the workflow was first conducted in python using folium/ipywidgets, etc.
-:::
-::::::
 
 ### Instruction:
 
