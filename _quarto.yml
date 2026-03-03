@@ -12,14 +12,12 @@ website:
         text: Resume
       - href: map_gallery.qmd
         text: Map Gallery
-      
       - text: Projects
         menu:
-          - href: content1.qmd
+          - href: content_1.qmd
             text: Project 1 – Evaluating and comparing the performance of VRI data and LiDAR-derived stand metrics across different geospatial features in MKRF, BC
-          - href: content2.qmd
+          - href: content_2.qmd
             text: Project 2 – Remote Sensing Used in Smart Urban Settings​
-
       - href: contact.qmd
         text: Contact Info
         
