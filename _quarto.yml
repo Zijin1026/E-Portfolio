@@ -3,7 +3,7 @@ project:
   output-dir: C:\Users\zj1026.stu\OneDrive - UBC\FCOR599\Term2\Guest Lecture\GuestLec3-E Portfolio\E-Portfolio
 
 website:
-  title: "Welcome to My Portfolio"
+  title: "Welcome to My Portfolio!"
   navbar:
     left:
       - href: index.qmd
@@ -18,6 +18,8 @@ website:
             text: Project 1 – Evaluating and Comparing the Performance of VRI Data and LiDAR-derived Stand Metrics across Different Geospatial Features in MKRF, BC
           - href: content_2.qmd
             text: Project 2 – Remote Sensing Used in Smart Urban Settings​
+          - href: content_3.qmd
+            text: Project 3 – Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories
       - href: contact.qmd
         text: Contact Info
         

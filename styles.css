@@ -9,3 +9,15 @@ h2 {
   height: 400px;       
   object-fit: cover;
 }
+
+.project-link {
+  background-color: #df691a;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  background-color: #c85a17;
+}

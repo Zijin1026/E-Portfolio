@@ -10,73 +10,157 @@ format:
     toc-depth: 3
 ---
 
+
+<h2>Project Experiences</h2>
+
+-   ::: fw-semibold
+    [Project 1: Evaluating and Comparing the Performance of VRI Data and LiDAR-derived Stand Metrics across Different Geospatial Features in MKRF, BC]{.text-primary} 
+    :::
+
+    ::: {.fst-italic .text-muted .text-end}
+    *September 2025 – April 2026*
+    :::
+    
+    [View Project 1]{.project-link href="content_1.html"}
+
+    <ul class="mt-2 mb-0">
+
+    <li>Process LiDAR point clouds using R, then calculate various stand metrics and geophysical metrics using either R or ArcGIS Pro.</li>
+    
+    <li>Employ statistical methods in R to compute, summarize, and analyze errors in each stored VRI polygon dataset.</li>
+    
+    <li>Present research findings through multiple formats, including posters, videos, written reports, and academic presentations.</li>
+
+    </ul>
+    
+    <br>
+    
+-   ::: fw-semibold
+    [Project 2: Remote Sensing Used in Smart Urban Settings]{.text-primary} 
+    :::
+
+    ::: {.fst-italic .text-muted .text-end}
+    *September 2025 – December 2025*
+    :::
+    
+    
+    [View Project 2]{.project-link href="content_2.html"}
+    
+
+    <ul class="mt-2 mb-0">
+
+    <li>Developed interactive dashboards and maps to visualize livability across the Greater Vancouver region using Python (folium, ipywidgets, branca).</li>
+    
+    <li>Served as project lead, structured outlines and timelines, arranged meetings, and integrated feedback.</li>
+    
+    <li>Assisted teammates in deriving pollution, greening, and temperature metrics from remote sensing data and integrating them with public datasets to compute livability scores across Dissemination Areas using ArcGIS Pro.</li>
+    
+    <li>Contributed to data processing, analysis, and final project presentation.</li>
+
+    </ul>
+
+
+
 <h2>Education</h2>
 
-<div class="fw-semibold"><span class="text-primary">Teaching Assistant Master of Geomatics for Environmental Management,</span> UBC Faculty of Forestry, Vancouver, BC</div>
-<div class="fst-italic text-muted text-end">*Completion: 2026*</div> 
+::: fw-semibold
+[Master of Geomatics for Environmental Management,]{.text-primary} UBC Faculty of Forestry, Vancouver, BC
+:::
 
-<ul class="mt-2 mb-0">Capstone Project: Evaluating and comparing the performance of current VRI data and LiDAR-derived stand metrics across different geospatial features in UBC’s MKRF, BC. ( detail see "Project Content")</ul>
+::: {.fst-italic .text-muted .text-end}
+*Completion: 2026*
+:::
+
+<ul class="mt-2 mb-0">
+
+Capstone Project: Evaluating and comparing the performance of current VRI data and LiDAR-derived stand metrics across different geospatial features in UBC’s MKRF, BC. ( detail see "Project Content")
+
+</ul>
 
 <br>
 
-<div class="fw-semibold"><span class="text-primary">Bachelor of Arts,</span> UBC Faculty of Arts, Vancouver, BC</div>
-<div class="fst-italic text-muted text-end">*Completion: 2025*</div> 
+::: fw-semibold
+[Bachelor of Arts,]{.text-primary} UBC Faculty of Arts, Vancouver, BC
+:::
 
-<ul class="mt-2 mb-0">Specialization: Geography, Environment & Sustainability.</ul>
+::: {.fst-italic .text-muted .text-end}
+*Completion: 2025*
+:::
 
+<ul class="mt-2 mb-0">
 
+Specialization: Geography, Environment & Sustainability.
 
-<br>
-<br>
+</ul>
 
-
+<br> <br>
 
 <h2>Awards & Honors</h2>
 
-- Outstanding International Student Award of $10,000, UBC (2021)
-- Faculty of Arts International Student Scholarship of $5,500.00, UBC (2023)
-- Faculty of Arts International Student Scholarship of $5,000.00, UBC (2024)
+-   Outstanding International Student Award of \$10,000, UBC (2021)
+-   Faculty of Arts International Student Scholarship of \$5,500.00, UBC (2023)
+-   Faculty of Arts International Student Scholarship of \$5,000.00, UBC (2024)
 
-
-
-<br>
-<br>
-
-
+<br> <br>
 
 <h2>Teaching Assistantships</h2>
-- <div class="fw-semibold"><span class="text-primary">CHIN131/231 Teaching assistant,</span> UBC Department of Asian Studies, Vancouver, BC</div>   
-  <div class="fst-italic text-muted text-end">*May 2024 – April 2025*</div>
+
+-   ::: fw-semibold
+    [CHIN131/231 Teaching assistant,]{.text-primary} UBC Department of Asian Studies, Vancouver, BC
+    :::
+
+    ::: {.fst-italic .text-muted .text-end}
+    *May 2024 – April 2025*
+    :::
+
     <ul class="mt-2 mb-0">
-    <li>Attending weekly tutorial sessions. </li>
-    <li>Contribute to the development and maintenance of the course web page; assist in editing text materials.</li>
+
+    <li>Attending weekly tutorial sessions.</li>
+
+    <li>Developing and maintaining the course web pages; assisting in editing text materials.</li>
+
     <li>Assisting with the devising and participating in team meetings and events.</li>
-    <li>Review, correct, and comment on student work weekly; identify and report issues, including but not limited to academic misconduct, technical errors, and material omissions.</li>
+
+    <li>Reviewing and commenting on student work weekly; reporting issues such as academic misconduct, technical errors, or missing material.</li>
+
     </ul>
-    
+
 <br>
 
-- <div class="fw-semibold"><span class="text-primary">CHIN405 OER,</span> UBC Department of Asian Studies, Vancouver, BC</div>                 
-  <div class="fst-italic text-muted text-end">*May 2024 – August 2024*</div>
+-   ::: fw-semibold
+    [CHIN405 OER,]{.text-primary} UBC Department of Asian Studies, Vancouver, BC
+    :::
+
+    ::: {.fst-italic .text-muted .text-end}
+    *May 2024 – August 2024*
+    :::
+
     <ul class="mt-2 mb-0">
+
     <li>Assist in designing web pages to incorporate course/instructor requirements into the web design</li>
+
     <li>Modify, maintain, and update course webpages</li>
+
     <li>Create web page tutorials, including written instructions and video recordings</li>
+
     </ul>
 
-
-<br>
-<br>
-
-
+<br> <br>
 
 <h2>Institutional Service</h2>
 
-- <div class="fw-semibold"><span class="text-primary">Assorted Farm Tasks, UBC Farm volunteer program,</span> Vancouver, BC</div>              
-<div class="fst-italic text-muted text-end">*May 2023 – June 2023*</div>
-    <ul class="mt-2 mb-0">
-    <li>Promote the understanding of various crops, process and join the routine tasks for the crop growth.</li>
-    <li>Handle detailed, tedious, and energy-consuming work.</li>
-    <li>Weed and harvest crops like strawberries, carrots, and lettuce.</li>
-    </ul>
+-   ::: fw-semibold
+    [Assorted Farm Tasks, UBC Farm volunteer program,]{.text-primary} Vancouver, BC
+    :::
 
+    ::: {.fst-italic .text-muted .text-end}
+    *May 2023 – June 2023*
+    :::
+
+    <ul class="mt-2 mb-0">
+
+    <li>Promote the understanding of various crops, process and join the routine tasks for the crop growth.</li>
+
+    <li>Handle detailed, tedious, and energy-consuming work, like weeding and harvesting strawberries, carrots, and lettuce.</li>
+
+    </ul>
