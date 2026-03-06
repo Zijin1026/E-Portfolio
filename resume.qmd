@@ -16,12 +16,20 @@ format:
 -   ::: fw-semibold
     [Project 1: Evaluating and Comparing the Performance of VRI Data and LiDAR-derived Stand Metrics across Different Geospatial Features in MKRF, BC]{.text-primary} 
     :::
+    
+    ::::: columns
+    ::: {.column width="30%"}
+    [View Project 1](content_1.html){.project-link}
+    :::
 
-    ::: {.fst-italic .text-muted .text-end}
+    ::: {.column width="5%"}
+    :::
+
+    ::: {.fst-italic .text-muted .text-end .column width="65%"}
     *September 2025 – April 2026*
     :::
-    
-    [View Project 1](content_1.html){.project-link}
+    :::::
+
 
     <ul class="mt-2 mb-0">
 
@@ -39,13 +47,18 @@ format:
     [Project 2: Remote Sensing Used in Smart Urban Settings]{.text-primary} 
     :::
 
-    ::: {.fst-italic .text-muted .text-end}
+    ::::: columns
+    ::: {.column width="30%"}
+    [View Project 2](content_2.html){.project-link}
+    :::
+
+    ::: {.column width="5%"}
+    :::
+
+    ::: {.fst-italic .text-muted .text-end .column width="65%"}
     *September 2025 – December 2025*
     :::
-    
-    
-    [View Project 2](content_2.html){.project-link}
-    
+    :::::
 
     <ul class="mt-2 mb-0">
 
@@ -59,17 +72,25 @@ format:
 
     </ul>
     
+    <br>
+    
 -   ::: fw-semibold
     [Project 3: Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories]{.text-primary} 
     :::
+    
+    ::::: columns
+    ::: {.column width="30%"}
+    [View Project 3](content_3.html){.project-link}
+    :::
 
-    ::: {.fst-italic .text-muted .text-end}
+    ::: {.column width="5%"}
+    :::
+
+    ::: {.fst-italic .text-muted .text-end .column width="65%"}
     *September 2025 – December 2025*
     :::
-    
-    
-    [View Project 3](content_3.html){.project-link}
-    
+    :::::
+
 
     <ul class="mt-2 mb-0">
 
@@ -80,8 +101,10 @@ format:
     <li>Collaborated with team members via Google Colab for code sharing and Presentation.</li>
 
     </ul>
-
-
+    
+    <br>
+    <br>
+    
 
 <h2>Education</h2>
 
