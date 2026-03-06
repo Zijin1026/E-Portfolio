@@ -58,17 +58,34 @@ https://github.com/Zijin1026/FCOR599-Term1Presentation/blob/main/FinalMap.ipynb
 
 
 
-<h2>[Image design for reference:]{.text-primary}</h2>
+<h2>[Accessible vs. Inaccessible Salmon Habitat Segments]{.text-primary}</h2>
 Investigating the Impact of Dams on the Accessibility of Natural Salmon Habitats.The inserted window illustrates the unique behavior of flow paths within lake regions during hydrological analysis.
 
 ![](images/Layout_page-0001.jpg){width="100%"} <br>
 <br>
+
+
+<h2>[Voroni Polygons for Campus Traffic Analysis]{.text-primary}</h2>
+Create Voronoi polygons based on traffic signals/signs.
+
 ![](images/GEM510_Lab4_page-0001.jpg){width="100%"} <br>
 <br>
+
+<h2>[The Least Cost Path for Grizzly Bears]{.text-primary}</h2>
+Comparing the Different Effects of Surface Type and Terrain on Grizzly Bear Migration.
+
 ![](images/LeastCostPath_page-0001.jpg){width="100%"}<br>
 <br>
+
+<h2>[Geographical Weighted Regression Analysis]{.text-primary}</h2>
+Use geographic weighted regression to predict different NDVI statistics. Comparing the adjusted R-squared values， hhigher values indicate stronger explanatory power of the model for the variable within that region.
 ![](images/R2.jpg){width="100%"} <br> 
 <br> 
+
+Green indicates smaller standard errors for the model, while brown indicates larger standard errors. Blue signifies regions with higher education levels generally exhibiting lower NDVI values, while red indicates the opposite.
 ![](images/C&SE.jpg){width="100%"}<br>
 <br> 
+
+<h2>[Comparing the Predictions for Categorical and Non-categorical Response Variables]{.text-primary}</h2>
+Compare the performance on maps when predicting categorical and non-categorical response variables using the same sampling method and the same combination of predictors.
 ![](images/Layout.jpg){width="100%"}
