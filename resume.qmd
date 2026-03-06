@@ -58,6 +58,28 @@ format:
     <li>Contributed to data processing, analysis, and final project presentation.</li>
 
     </ul>
+    
+-   ::: fw-semibold
+    [Project 3: Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories]{.text-primary} 
+    :::
+
+    ::: {.fst-italic .text-muted .text-end}
+    *September 2025 – December 2025*
+    :::
+    
+    
+    [View Project 2]{.project-link href="content_3.html"}
+    
+
+    <ul class="mt-2 mb-0">
+
+    <li>Applied Random Forest classification using Python (sklearn), systematically evaluating spectral and topographic predictors.</li>
+    
+    <li>Lead the production of final maps, incorporating iterative feedback and revisions.</li>
+    
+    <li>Collaborated with team members via Google Colab for code sharing and Presentation.</li>
+
+    </ul>
 
 
 

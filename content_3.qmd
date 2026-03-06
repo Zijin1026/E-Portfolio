@@ -31,7 +31,7 @@ The PRF, located in Ontario near the Quebec border about 200 km northwest of Ott
 ## Data Summary:
 
 |  |  |  |
-|-------------------|-------------------|-----------------------------------------|
+|----|----|----|
 |  | **Data Source** | **Metrics Breakdown** |
 | **LiDAR** | Terrain Metrics: PRF Digital Terrain Model | Aspects; Slope |
 |  | Stand Metrics: PRF Enhanced Forest Inventory datasets | Basal Area; Above ground Biomass; Height of Dominant Species; DBH; Stand Density; Gross Total Volume |
