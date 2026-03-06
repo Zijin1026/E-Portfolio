@@ -21,7 +21,7 @@ format:
     *September 2025 – April 2026*
     :::
     
-    [View Project 2](content_1.html){.project-link}
+    [View Project 1](content_1.html){.project-link}
 
     <ul class="mt-2 mb-0">
 
@@ -68,7 +68,7 @@ format:
     :::
     
     
-    [View Project 2](content_3.html){.project-link}
+    [View Project 3](content_3.html){.project-link}
     
 
     <ul class="mt-2 mb-0">
