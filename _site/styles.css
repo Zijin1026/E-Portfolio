@@ -1,0 +1,23 @@
+h2 {
+  border-bottom: 2px solid var(--bs-light);
+}
+
+/* Force trestles profile image to be circular */
+.quarto-about-trestles img {
+  border-radius: 50% !important;
+  width: 400px;        
+  height: 400px;       
+  object-fit: cover;
+}
+
+.project-link {
+  background-color: #df691a;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  background-color: #c85a17;
+}

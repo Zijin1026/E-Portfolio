@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Project Experiences\n\n\n\nProject 1: Evaluating and Comparing the Performance of VRI Data and LiDAR-derived Stand Metrics across Different Geospatial Features in MKRF, BC\n\n\nSeptember 2025 – April 2026\n\nView Project 2\n\n\nProcess LiDAR point clouds using R, then calculate various stand metrics and geophysical metrics using either R or ArcGIS Pro.\n\n\nEmploy statistical methods in R to compute, summarize, and analyze errors in each stored VRI polygon dataset.\n\n\nPresent research findings through multiple formats, including posters, videos, written reports, and academic presentations.\n\n\n\n\nProject 2: Remote Sensing Used in Smart Urban Settings\n\n\nSeptember 2025 – December 2025\n\nView Project 2\n\n\nDeveloped interactive dashboards and maps to visualize livability across the Greater Vancouver region using Python (folium, ipywidgets, branca).\n\n\nServed as project lead, structured outlines and timelines, arranged meetings, and integrated feedback.\n\n\nAssisted teammates in deriving pollution, greening, and temperature metrics from remote sensing data and integrating them with public datasets to compute livability scores across Dissemination Areas using ArcGIS Pro.\n\n\nContributed to data processing, analysis, and final project presentation.\n\n\n\nProject 3: Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories\n\n\nSeptember 2025 – December 2025\n\nView Project 2\n\n\nApplied Random Forest classification using Python (sklearn), systematically evaluating spectral and topographic predictors.\n\n\nLead the production of final maps, incorporating iterative feedback and revisions.\n\n\nCollaborated with team members via Google Colab for code sharing and Presentation.\n\n\n\n\nEducation\n\n\nMaster of Geomatics for Environmental Management, UBC Faculty of Forestry, Vancouver, BC\n\n\nCompletion: 2026\n\n\nCapstone Project: Evaluating and comparing the performance of current VRI data and LiDAR-derived stand metrics across different geospatial features in UBC’s MKRF, BC. ( detail see “Project Content”)\n\n\n\nBachelor of Arts, UBC Faculty of Arts, Vancouver, BC\n\n\nCompletion: 2025\n\n\nSpecialization: Geography, Environment & Sustainability.\n\n \n\nAwards & Honors\n\n\nOutstanding International Student Award of $10,000, UBC (2021)\nFaculty of Arts International Student Scholarship of $5,500.00, UBC (2023)\nFaculty of Arts International Student Scholarship of $5,000.00, UBC (2024)\n\n \n\nTeaching Assistantships\n\n\n\nCHIN131/231 Teaching assistant, UBC Department of Asian Studies, Vancouver, BC\n\n\nMay 2024 – April 2025\n\n\n\nAttending weekly tutorial sessions.\n\n\nDeveloping and maintaining the course web pages; assisting in editing text materials.\n\n\nAssisting with the devising and participating in team meetings and events.\n\n\nReviewing and commenting on student work weekly; reporting issues such as academic misconduct, technical errors, or missing material.\n\n\n\n\n\n\nCHIN405 OER, UBC Department of Asian Studies, Vancouver, BC\n\n\nMay 2024 – August 2024\n\n\n\nAssist in designing web pages to incorporate course/instructor requirements into the web design\n\n\nModify, maintain, and update course webpages\n\n\nCreate web page tutorials, including written instructions and video recordings\n\n\n\n \n\nInstitutional Service\n\n\n\nAssorted Farm Tasks, UBC Farm volunteer program, Vancouver, BC\n\n\nMay 2023 – June 2023\n\n\n\nPromote the understanding of various crops, process and join the routine tasks for the crop growth.\n\n\nHandle detailed, tedious, and energy-consuming work, like weeding and harvesting strawberries, carrots, and lettuce."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Zijin(Sarah) Xiao",
+    "section": "",
+    "text": "Hi there people,\n\nI am a new Master graduate from UBC Master of Geomatics for Environmental Management (MGEM) program and ready to participate and contribute to my future workplace!!!! With past 5 years of study in Geography and GIS_related field, I am confident to show I have gotten strong analytical and critical thinking skills, specializing in data visualization and cartographic design. Proficient in a wide range of geospatial software, office tools and picture editing platforms, including ESRI, ArcGIS Pro, QGIS, Microsoft Office Suite, Adobe Illustrator, etc. Proficient in coding with Python and R for geospatial data analysis, automation, and statistical modeling. Demonstrated strengths in multitasking, time management, and team collaboration, with a proven ability to work efficiently in project-oriented environments.\nOver the past five years of my academic career, I have participated in numerous projects related to remote sensing, programming, and GIS. You can explore the “Map Gallery”/Project Conetent” section for further details."
+  },
+  {
+    "objectID": "content_2.html",
+    "href": "content_2.html",
+    "title": "Project 2: Remote Sensing Used in Smart Urban Settings",
+    "section": "",
+    "text": "Project Author: Zijin Xiao; ​Kelvin Lee; Xuan Dong; Willa Pepin​; Hengyin Liao"
+  },
+  {
+    "objectID": "content_2.html#remote-sensing-for-urban-temperature-monitoring",
+    "href": "content_2.html#remote-sensing-for-urban-temperature-monitoring",
+    "title": "Project 2: Remote Sensing Used in Smart Urban Settings",
+    "section": "Remote Sensing for Urban Temperature Monitoring",
+    "text": "Remote Sensing for Urban Temperature Monitoring\nTIR (Thermal Infrared) temperature refers to the measurement of land surface temperature using thermal infrared bands. Thermal Infrared (TIR) satellite example includes Landsat 8/9 TIRS (Band 10, Res 100m, 16-day revisit)​ & ECOSTRESS (ISS) (TIR, RES 70m, diurnal heat patterns), etc.\nThe satellite sensor measures top-of-atmosphere spectral radiance in the thermal infrared band first. Then we convert the radiance into brightness temperature(BT) using Planck’s law. BT stands for the temperature of a blackbody that would emit the measured radiance. The last step is to calibrate these results based on the surface type for the real land surface temperature (LST).\nThis means a lot to a smart city in combat with higher health risk​ due to increasing heatwave frequency and intensity. It also reflects the energy demand pattern."
+  },
+  {
+    "objectID": "content_2.html#remote-sensing-for-urban-greenness-monitoring",
+    "href": "content_2.html#remote-sensing-for-urban-greenness-monitoring",
+    "title": "Project 2: Remote Sensing Used in Smart Urban Settings",
+    "section": "Remote Sensing for Urban Greenness Monitoring​",
+    "text": "Remote Sensing for Urban Greenness Monitoring​\nUrban greening levels are typically evaluated using a variety of indices, such as the Normalized Difference Vegetation Index (NDVI). The Enhanced Vegetation Index (EVI) is a refined version of NDVI that incorporates additional adjustments for soil and atmospheric effects.\nA city can do a lot with Greenness:\n\nImproves air quality​ & energy efficiency​ and reduces climate risks​\nIncreases urban attractiveness and quality of life\nIdentify where green infrastructure is lacking​\nMonitor sustainable urban growth​\nSupport smart-city environmental policy decisions"
+  },
+  {
+    "objectID": "content_2.html#remote-sensing-for-urban-air-quality-monitoring",
+    "href": "content_2.html#remote-sensing-for-urban-air-quality-monitoring",
+    "title": "Project 2: Remote Sensing Used in Smart Urban Settings",
+    "section": "Remote Sensing for Urban Air Quality Monitoring​",
+    "text": "Remote Sensing for Urban Air Quality Monitoring​\nThis is a promising field, as current air pollution monitoring largely relies on ground stations. Remote sensing data provides more precise and continuous air quality information.\nSatellites can predict air quality by detecting atypical refraction/scattering of pollutants in the atmosphere across specific spectral bands. Consequently, NDVI, spectral ratios, and TOA reflectance can all infer relative aerosol concentration/pollution loading."
+  },
+  {
+    "objectID": "content_2.html#remote-sensing-for-detecting-radiation-receiving-sunlight",
+    "href": "content_2.html#remote-sensing-for-detecting-radiation-receiving-sunlight",
+    "title": "Project 2: Remote Sensing Used in Smart Urban Settings",
+    "section": "Remote Sensing for Detecting Radiation Receiving (Sunlight)​​",
+    "text": "Remote Sensing for Detecting Radiation Receiving (Sunlight)​​\nGeostationary satellites measure narrow band reflectance at the top of the atmosphere, which is converted into broadband TOA albedo, then matched with radiative transfer lookup tables to estimate atmospheric transmittance based on airborne particles and surface properties. Using this transmittance, the algorithm calculates Surface Solar Irradiance (SSI), representing the amount of solar radiation reaching the ground."
+  },
+  {
+    "objectID": "content_2.html#metric-introductioncreation-workflow",
+    "href": "content_2.html#metric-introductioncreation-workflow",
+    "title": "Project 2: Remote Sensing Used in Smart Urban Settings",
+    "section": "Metric Introduction/Creation Workflow:",
+    "text": "Metric Introduction/Creation Workflow:\n\n\n\n\n\n\n\nDistance to Amenities\nDistance to CBD (Central Business District) (m)​\nDistance to Public Transportation Stations (m)​\nDistance to Nearest School (m)​\nDistance to Hospital (m)\n\n\nEnvironment\nDistance to Seashore (m)​\nGreen Density​\nSurface Temperatrue (°C)​\nPM2.5 Concentration (μg/m³)\n\n\nPrice\nOwned House Maintainance fee ($)​\nHouse Rent ($)\n\n\nNeighborhoods / Neighbors\nPopulation Density​\nPercentage of Bachelor Degree Holders​\nAge​\nUnemployment Rate​\nMedian Income ($)\n\n\nSocial Instability Factor\nCrime Rate"
+  },
+  {
+    "objectID": "content_2.html#map-creation-workflow",
+    "href": "content_2.html#map-creation-workflow",
+    "title": "Project 2: Remote Sensing Used in Smart Urban Settings",
+    "section": "Map Creation Workflow:",
+    "text": "Map Creation Workflow:\n\nps: the workflow was first conducted in python using folium/ipywidgets, etc."
+  },
+  {
+    "objectID": "content_2.html#instruction",
+    "href": "content_2.html#instruction",
+    "title": "Project 2: Remote Sensing Used in Smart Urban Settings",
+    "section": "Instruction:",
+    "text": "Instruction:\n\nWeight control:\n\nEach Metric is Weighted from 1-10, with a step of 1. You can Drag & Drop to control the weight!\nThe weights will be normalized by: \\(\\frac{\\text{Metric}}{\\text{Sum of All Metric Values}}\\)\nAll 10 = All 1 = Equally weighted\n\nToggle Options​:\n\nLet users define what is preferable\nIf ‘Lower is better’ is on: \\(\\frac{\\text{DA } Value_{max} - \\text{DA Value}}{\\text{DA } Value_{max} - \\text{DA } Value_{min}}\\)\nIf ‘Higher is better’ is on: \\(\\frac{\\text{DA Value} - \\text{DA } Value_{min}}{\\text{DA } Value_{max} - \\text{DA } Value_{min}}\\)\n\nSummary Table:\n\nThe table summarizes the 10 most livable dissemination areas"
+  },
+  {
+    "objectID": "content_2.html#check-the-interactive-map-below",
+    "href": "content_2.html#check-the-interactive-map-below",
+    "title": "Project 2: Remote Sensing Used in Smart Urban Settings",
+    "section": "Check the interactive map below:",
+    "text": "Check the interactive map below:"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Email\n\nxiaozijin2024@gmail.com\n\nPhone\n\n2369665760"
+  },
+  {
+    "objectID": "content_1.html",
+    "href": "content_1.html",
+    "title": "Project 1: Evaluating and Comparing the Performance of VRI Data and LiDAR-derived Stand Metrics across Different Geospatial Features in MKRF, BC",
+    "section": "",
+    "text": "Project Author: Zijin Xiao"
+  },
+  {
+    "objectID": "content_1.html#study-site-summary",
+    "href": "content_1.html#study-site-summary",
+    "title": "Project 1: Evaluating and Comparing the Performance of VRI Data and LiDAR-derived Stand Metrics across Different Geospatial Features in MKRF, BC",
+    "section": "Study Site Summary:",
+    "text": "Study Site Summary:\nThe Malcolm Knapp Research Forest is located in Maple Ridge, BC, Canada. According to UBC Forestry (2025), MKRF is a traditional, ancestral, and unceded territory of the Katzie (q̓ic̓əy̓) First Nation; it has over 51 km2 of coastal forest hectares that fall entirely in the Coast Western Hemlock (CWH) biogeoclimatic zone. Common species also include Douglas-fir and Western red cedar. (UBC Forestry, 2025). The annual average rainfall in MKRF is between 2200 and 3000mm, showing a strong marine climate (UBC Forestry, 2025). MKRF contains a variety of minor topography. It exhibits a general decreasing gradient from the north-east side of the mountain to the south-west lowland (UBC Forestry, 2025). The area will be considered suitable for this research due to its high data availability, complex geomorphology, and sufficiently large study area, enabling the research to produce more precise and representative results regarding the different patterns."
+  },
+  {
+    "objectID": "content_1.html#data-summary",
+    "href": "content_1.html#data-summary",
+    "title": "Project 1: Evaluating and Comparing the Performance of VRI Data and LiDAR-derived Stand Metrics across Different Geospatial Features in MKRF, BC",
+    "section": "Data Summary:",
+    "text": "Data Summary:\nThe study will use the VRI data and LiDAR data from 2022, and a supportive boundary file from 2025.\nVegetation Resource Inventory (VRI) data is from the BC Data Catalogue (2022). It provides all stand metrics and one geophysical metric for this study. The selected stand metrics capture stand structure in horizontal, vertical, and volumetric dimensions. We will take the column of canopy density, stand height, live stand volume (trees &gt;12.5 cm DBH), and vertical complexity into our comparison with those metrics derived from LiDAR. The geophysical metric, surface expression from VRI, adds more details to the geophysical consideration of the study by describing the subsurface structure, composition, and subtle morphology as a whole.\nWe obtain the LiDAR data through the laser scanner system: RIEGL VQ-1560II (RIEGL Laser Measurement Systems, 2022). Laser pulse repetition rates can be in steps of less than 12. It is also equipped with an IMU/GNSS unit that allows for seamless integration and a 150-megapixel RGB camera. The LiDAR also serves as the base of a series of derived models and raster files. Most of them have a resolution from 0.25m to 1m. Most of them have a resolution from 0.25m to 1m. A resolution of 1m will be chosen for downstream analysis to unify the spatial resolution and speed up data processing.\n\nAttributes of all adopted data. The table summarizes all data information with its data name, source, data type, resolution, theme, derived/acquired, and other details.\n\n\n\n\n\n\n\n\n\n\n\nData name\nSource\nData type\nResolutions\nDerived / Acquired\nTheme\nDetails\n\n\n\n\nVEG_COMP_LYR_R1_POLY_2022\nBC Government\nPolygon\nDepending on polygon size ( from 0.285m2 to1.200\nAcquired\nVegetation Resource Inventory\nBiomass, Basal Area, Average DBH, Height, etc.\n\n\nboundaries\nUBC\nPolygon\n50.89km2\nAcquired\nThe boundary of MKRF\nN/A\n\n\nALS_2022\nLong-range airborne laser scanner system RIEGL\nRaster\n1m\nAcquired\nLiDAR data collected over the MKRF region\nThe raw LiDAR point clouds.\n\n\n\n\n\n\nDerived\nCHM\nCanopy Height Model\n\n\n\n\n\n\nDerived\nDTM\nDigital Terrain Models\n\n\n\n\n\n\nDerived\nSlope, altitude, TWI\nA series of derived raster files from LiDAR"
+  },
+  {
+    "objectID": "content_1.html#the-summary-of-general-error-pattern-statistics",
+    "href": "content_1.html#the-summary-of-general-error-pattern-statistics",
+    "title": "Project 1: Evaluating and Comparing the Performance of VRI Data and LiDAR-derived Stand Metrics across Different Geospatial Features in MKRF, BC",
+    "section": "The Summary of General Error Pattern & Statistics:",
+    "text": "The Summary of General Error Pattern & Statistics:\nThe underestimation of stand metrics tends to be found at the north-west and the south-east portions of the MKRF landscape. The overestimation of stand metrics tends to be found at the middle-to-north central part and the southernmost part of the landscape. This error distribution aligns partially with geophysical metrics like slope, solar radiation, and TWI, and is determined by the combination/proportional contribution of those.\n\n\n\n\n\n\nThree stand metric errors are normalized and weighted equally to get the overall error pattern. Significant error is shown by a more intense color, while less significant error is represented by light red/blue/yellow.\n\n\n\n\n\n\nThe breakdown of three different types of standard error. Significant error is shown by a more intense color, while less significant error is represented by light red/blue/yellow."
+  },
+  {
+    "objectID": "content_1.html#expected-error-pattern-in-response-to-geophysical-metrics",
+    "href": "content_1.html#expected-error-pattern-in-response-to-geophysical-metrics",
+    "title": "Project 1: Evaluating and Comparing the Performance of VRI Data and LiDAR-derived Stand Metrics across Different Geospatial Features in MKRF, BC",
+    "section": "Expected Error Pattern in Response to Geophysical Metrics:",
+    "text": "Expected Error Pattern in Response to Geophysical Metrics:\nThe statistics result reflects a consistent pattern where canopy density error is least likely to be affected by geophysical factors, while height density is right at the opposite. Slope, potential solar radiation, and TWI are the geophysical factors that are most likely to drive a stand metric error. The relationship is not only illustrated by the Pearson’s coefficient and scatterplots, but also validated by better model fitness and model error behavior. However, it is important to note that the adopted linear models here are not the best model to fit all types of relationships. The point here is to use an efficient statistic model showing a general pattern between each pair of stand/geophysical metrics."
+  },
+  {
+    "objectID": "content_1.html#expected-error-pattern-in-response-to-surface-expression",
+    "href": "content_1.html#expected-error-pattern-in-response-to-surface-expression",
+    "title": "Project 1: Evaluating and Comparing the Performance of VRI Data and LiDAR-derived Stand Metrics across Different Geospatial Features in MKRF, BC",
+    "section": "Expected Error Pattern in Response to Surface Expression:",
+    "text": "Expected Error Pattern in Response to Surface Expression:\nPlain shows more bias in canopy density and height, but shows the least bias in volume. This is contradictory to our first expectations, where the error of plain should be the lowest across all types of errors. It can be explained by the fact that unclassifiable polygons (None) constitute the vast majority of the MKRF. The remaining three categories each contain only dozens of data points, significantly increasing uncertainty and bias. Therefore, the research on stand metric error based on surface expressions should ideally select more diverse study areas."
+  },
+  {
+    "objectID": "content_1.html#the-summary-of-spatial-error-distribution-pattern-in-relation-to-geophysical-metrics",
+    "href": "content_1.html#the-summary-of-spatial-error-distribution-pattern-in-relation-to-geophysical-metrics",
+    "title": "Project 1: Evaluating and Comparing the Performance of VRI Data and LiDAR-derived Stand Metrics across Different Geospatial Features in MKRF, BC",
+    "section": "The Summary of Spatial Error Distribution Pattern in Relation to Geophysical Metrics:",
+    "text": "The Summary of Spatial Error Distribution Pattern in Relation to Geophysical Metrics:\nHere, we offer two sets of ways to explore the relationship between stand metrics and geophysical metrics spatially.\n1) By lining up different geophysical metrics below the error pattern:\n\nSlopePotential RadiationTWI\n\n\n\n\n\n\n\n\n\n\n\n\nor 2) visualizing the relationships themselves (high/low stand error - high/low geophysical metric value) with bivariate choropleths:\n\nSlopePotential RadiationTWI\n\n\n\n\n\n\n\n\n\n\n\n\nThey both prove the general tendency where underestimation is more likely to be found on the steep north-west facing slope of MKRF, preferably with low TWI across all types of stand metric errors. Overestimation is more likely to be found on the gentle slope where potential solar radiation accumulates, and TWI is high. However, this pattern is more obvious and intuitive on the proportional dot maps than on the bivariate maps, which is also reasonable. The relationship is expressed by the given polygons, which overlook numerous potential subtle topographical variations, and the observed pattern is not robust enough to disregard the presence of confounding variables."
+  },
+  {
+    "objectID": "content_3.html",
+    "href": "content_3.html",
+    "title": "Project 3: Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories",
+    "section": "",
+    "text": "Project Author: Zijin Xiao, Kate McIntyre, Nathan Mital, Abdiqafar Mohamed,"
+  },
+  {
+    "objectID": "content_3.html#major-questions-to-solve",
+    "href": "content_3.html#major-questions-to-solve",
+    "title": "Project 3: Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories",
+    "section": "Major Questions to Solve",
+    "text": "Major Questions to Solve\n\nCan airborne LiDAR (ALS) data be used to accurately predict dominant tree species at the stand level in the Petawawa Research Forest?\nIs LiDAR data alone sufficient for species classification, or would adding multispectral data improve model performance?"
+  },
+  {
+    "objectID": "content_3.html#study-site-summary",
+    "href": "content_3.html#study-site-summary",
+    "title": "Project 3: Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories",
+    "section": "Study Site Summary:",
+    "text": "Study Site Summary:\nThe PRF, located in Ontario near the Quebec border about 200 km northwest of Ottawa, offers an ideal test environment (Figure 1). Established in 1918, it is Canada’s oldest continuously operated research forest and spans roughly 100 km² within the Great Lakes–St. Lawrence mixedwood region (White et al., 2020). Its long-term ecological monitoring program includes ALS acquisitions from 2012 and 2018. Common species in the forest include white pine (Pinus strobus), red oak (Quercus rubra), trembling aspen (Populus tremuloides), white birch (Betula papyrifera), red pine (Pinus resinosa), and maple (Acer spp.)."
+  },
+  {
+    "objectID": "content_3.html#data-summary",
+    "href": "content_3.html#data-summary",
+    "title": "Project 3: Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories",
+    "section": "Data Summary:",
+    "text": "Data Summary:\n\n\n\n\n\n\n\n\n\nData Source\nMetrics Breakdown\n\n\nLiDAR\nTerrain Metrics: PRF Digital Terrain Model\nAspects; Slope\n\n\n\nStand Metrics: PRF Enhanced Forest Inventory datasets\nBasal Area; Above ground Biomass; Height of Dominant Species; DBH; Stand Density; Gross Total Volume\n\n\nMulti-Spectral Images:\nLandsat 8\nBand 2 (Blue); Band 3 (Green); Band 4 (Red); Band 5 (NIR); Band 6 (SWIR1); Band 7 (SWIR2)\n\n\nGround Plots:\nField Trip\nTree Species; Ground Plot Vectors"
+  },
+  {
+    "objectID": "map_gallery.html",
+    "href": "map_gallery.html",
+    "title": "Map Gallery",
+    "section": "",
+    "text": "Proposal of examining The Species Composition of Petawawa Research Forest\n\n\n\n\nResearch & Area of Interest:\n\nThis project utilizes airborne laser scanning (ALS) data and provided climate databases, combined with Python-based Classification tools (sklearn-RandomForestClassifier), to rank dominant tree species within the Petawawa Research Forest (PRF) while investigating their approximate distribution patterns.\n\n\n\n Research Area Overview\n\n\n\n\n   Both the map and histogram were generated using Python.\n\n\n\n\nResult:\n\nThe results are quite clear: white pine is the most dominant species. However, it is worth noting that the current model is constrained by the limited training ground plots, resulting in an overall accuracy of only 58%. Furthermore, the model incorrectly classifies unvegetated areas, such as water bodies, as a single species distribution. This aspect requires improvement. Nevertheless, the expected results still demonstrate the feasibility of our approach.\n\n\n \n\nThe Most Livable Space in the Great Vancouver\n\nInteract with widgets to find the Dissemination Area that best suits your needs. Data sourced from multiple public sources, Landsat satellites, and government websites. Data overview as follows:\n\n\nFor more info, click and download:  https://github.com/Zijin1026/FCOR599-Term1Presentation/blob/main/FinalMap.ipynb\n \n\nImage design for reference:\n\nAll images are intended for academic purposes, thus prioritizing static maps. Aesthetically, they favor simplicity, high recognizability, and dense information content."
+  }
+]
