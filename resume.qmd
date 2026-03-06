@@ -68,7 +68,7 @@ format:
     :::
     
     
-    [View Project 2]{.project-link href="content_3.html"}
+    [View Project 3]{.project-link href="content_3.html"}
     
 
     <ul class="mt-2 mb-0">
