@@ -10,7 +10,7 @@ Project Author: Zijin Xiao
 
 # Introduction:
 
-The Vegetation Resource Inventory (VRI) is a provincial database that records forest metrics across BC with outdated methods (BC Government., n.d.). In the modern context, VRI is no longer an ideal database for stand-level studies. The polygons contain limited information and are prone to overgeneralizing the metrics for the area within a polygon, which is likely due to and introduced by the aggregation and ecological effects (Holt et, al., 2010). However, VRI still actively participates in a lot of fields like estimating carbon stock, disturbance map updating, and various other fields today (Parshakov et. al., 2025; DellaSala et. al., 2022).
+The Vegetation Resource Inventory (VRI) is a provincial database that records forest metrics across BC (BC Government., n.d.). In the modern context, VRI is no longer an ideal database for stand-level studies. The polygons contain limited information and are prone to overgeneralizing the metrics for the area within a polygon, which is likely due to and introduced by the aggregation effects (Holt et, al., 2010). However, VRI still actively participates in a lot of fields like estimating carbon stock, disturbance map updating, and various other fields today (Parshakov et. al., 2025; DellaSala et. al., 2022).
 
 In this Study, we compare VRI data (2019&2022) and LiDAR-derived data (2019&2022), both obtained from Malcolm Knapp Research Forest (MKRF). Our goals include: **1. Quantifying the discrepancy between the stand metrics derived from VRI and LiDAR**. We are concerned with stand volume, diameter, species composition, etc., as they tend to exhibit error patterns in different ways potentially. **2. Examining, summarizing, and mapping out any potential pattern of the discrepancy in relation to specific geophysical features.** We expect to observe more errors and/or a larger error range at the border of multiple succession stages or in rough, uneven terrain, as these areas exhibit greater microscale heterogeneity and pose a higher risk of overgeneralization.
 
@@ -50,7 +50,7 @@ Vegetation Resource Inventory (VRI) data is from the BC Data Catalogue (2022). I
 We obtain the LiDAR data through the laser scanner system: RIEGL VQ-1560II (RIEGL Laser Measurement Systems, 2022). Laser pulse repetition rates can be in steps of less than 12. It is also equipped with an IMU/GNSS unit that allows for seamless integration and a 150-megapixel RGB camera. The LiDAR also serves as the base of a series of derived models and raster files. Most of them have a resolution from 0.25m to 1m. Most of them have a resolution from 0.25m to 1m. A resolution of 1m will be chosen for downstream analysis to unify the spatial resolution and speed up data processing.
 
 | Data name | Source | Data type | Resolutions | Derived / Acquired | Theme | Details |
-|----|----|----|----|----|----|----|
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | VEG_COMP_LYR_R1_POLY_2022 | BC Government | Polygon | Depending on polygon size ( from 0.285m^2^ to1.200 | Acquired | Vegetation Resource Inventory | Biomass, Basal Area, Average DBH, Height, etc. |
 | boundaries | UBC | Polygon | 50.89km^2^ | Acquired | The boundary of MKRF | N/A |
 | ALS_2022 | Long-range airborne laser scanner system RIEGL | Raster | 1m | Acquired | LiDAR data collected over the MKRF region | The raw LiDAR point clouds. |
