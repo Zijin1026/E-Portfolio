@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Project 3: Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories – Welcome to My Portfolio!</title>
+<title>Project 3: Proposing a Method for Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories – Welcome to My Portfolio!</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -153,7 +153,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
         <li>
     <a class="dropdown-item" href="./content_3.html">
- <span class="dropdown-text">Project 3 – Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories</span></a>
+ <span class="dropdown-text">Project 3 – Proposing a Method for Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories”</span></a>
   </li>  
     </ul>
   </li>
@@ -186,9 +186,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#study-site-summary" id="toc-study-site-summary" class="nav-link" data-scroll-target="#study-site-summary">Study Site Summary:</a></li>
   <li><a href="#data-summary" id="toc-data-summary" class="nav-link" data-scroll-target="#data-summary">Data Summary:</a></li>
   </ul></li>
-  <li><a href="#method" id="toc-method" class="nav-link" data-scroll-target="#method">Method:</a></li>
-  <li><a href="#result" id="toc-result" class="nav-link" data-scroll-target="#result">Result:</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#method" id="toc-method" class="nav-link" data-scroll-target="#method">Method</a></li>
+  <li><a href="#result" id="toc-result" class="nav-link" data-scroll-target="#result">Result</a>
+  <ul class="collapse">
+  <li><a href="#mapping-the-dominant-species" id="toc-mapping-the-dominant-species" class="nav-link" data-scroll-target="#mapping-the-dominant-species">Mapping the Dominant Species:</a></li>
+  <li><a href="#is-lidar-data-alone-sufficient-for-species-classification" id="toc-is-lidar-data-alone-sufficient-for-species-classification" class="nav-link" data-scroll-target="#is-lidar-data-alone-sufficient-for-species-classification">Is LiDAR Data Alone Sufficient for Species Classification:</a></li>
+  </ul></li>
+  <li><a href="#challenges-limitations" id="toc-challenges-limitations" class="nav-link" data-scroll-target="#challenges-limitations"><strong>Challenges &amp; Limitations</strong></a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><strong>References</strong></a></li>
   </ul>
 </nav>
     </div>
@@ -197,7 +202,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">Project 3: Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title">Project 3: Proposing a Method for Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
 </div>
 
 
@@ -223,7 +228,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="major-questions-to-solve">Major Questions to Solve</h2>
 <ul>
 <li><p>Can airborne LiDAR (ALS) data be used to accurately predict dominant tree species at the stand level in the Petawawa Research Forest?</p></li>
-<li><p>Is LiDAR data alone sufficient for species classification, or would adding multispectral data improve model performance?</p></li>
+<li><p>Is LiDAR data alone sufficient for species classification, or would adding multi-spectral data improve model performance?</p></li>
 </ul>
 </section>
 </section>
@@ -273,7 +278,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 </section>
 <section id="method" class="level1">
-<h1>Method:</h1>
+<h1>Method</h1>
 <p><strong>1. Set up and Prepare Landscape Data (LiDAR/Multi-Spectral Images)</strong></p>
 <ul>
 <li>Load and process landscape data (metrics)</li>
@@ -384,10 +389,69 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 </section>
 <section id="result" class="level1">
-<h1>Result:</h1>
+<h1>Result</h1>
+<section id="mapping-the-dominant-species" class="level2">
+<h2 class="anchored" data-anchor-id="mapping-the-dominant-species">Mapping the Dominant Species:</h2>
+<p>We expect that from our methods that we will be able to develop a province-wide map of dominant tree species. The dominant species in the PRF were successfully identified and visually displayed by the map below showing the distribution of dominance across the area of study.</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="images/Dominance.png" class="img-fluid figure-img"></p>
+<figcaption>Dominance of tree species accross the PRF</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="images/rank.png" class="img-fluid figure-img"></p>
+<figcaption>Visualizing the result with histogram</figcaption>
+</figure>
+</div>
+<p><img src="images/petawawa.png" class="img-fluid"></p>
 </section>
-<section id="section" class="level1">
-<h1></h1>
+<section id="is-lidar-data-alone-sufficient-for-species-classification" class="level2">
+<h2 class="anchored" data-anchor-id="is-lidar-data-alone-sufficient-for-species-classification">Is LiDAR Data Alone Sufficient for Species Classification:</h2>
+<p>We expect that the combination of LiDAR and spectral imagery will allow for a higher accuracy in differentiation between tree species and have provided example code to prove this. This will be much more suitable for applying to a cross-province species detection program.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">ALS-Only</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Multi-Spectral Images + ALS</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ALSOnly.png" class="img-fluid figure-img"></p>
+<figcaption>Accuracy of tree species detection using only ALS data</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Landsat+ALS.png" class="img-fluid figure-img"></p>
+<figcaption>Accuracy of tree species detection using a combination of Landsat-8 imagery with ALS</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="challenges-limitations" class="level1">
+<h1><strong>Challenges &amp; Limitations</strong></h1>
+<ul>
+<li><p>Rare Species: Some species were dropped from the model as they were too statistiscally insignficant. Furthermore, there may be species not found in PRF that are found elswhere in Ontario, thus not being accounted for in the model.</p></li>
+<li><p>The training data set is not big enough</p></li>
+<li><p>Because this analysis uses polygons that represent the most dominant tree species within, the ratio of dominance is not known. Using single tree values would allow for a better understanding of the proportion of dominant tree species versus “other” in the area of study.</p></li>
+<li><p>Multispectral imagery has very coarse spatial resolution (Landsat-8), which means our model is limited as it cannot capture the fine spatial and spectral resolution. Landsat-8 was chosen because it is very accessible in North America.</p></li>
+<li><p>The mask can be added to prevent the misclassification of water, barren land, or other special terrain types.</p></li>
+</ul>
+</section>
+<section id="references" class="level1">
+<h1><strong>References</strong></h1>
+<p>• Natural Resources Canada (2025). Petawawa Research Forest (PRF) Open Data Portal. <a href="https://www.google.com/url?q=https%3A%2F%2Fopendata.nfis.org%2Fmapserver%2FPRF.html">https://opendata.nfis.org/mapserver/PRF.html</a></p>
+<p>• Fassnacht, F. E., Latifi, H., Stereńczak, K., Modzelewska, A., Lefsky, M., Waser, L. T., Straub, C., &amp; Ghosh, A. (2016). Review of studies on tree species classification from remotely sensed data. Remote Sensing of Environment, 186, 64–87. <a href="https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.rse.2016.08.013">https://doi.org/10.1016/j.rse.2016.08.013</a></p>
+<p>• Michałowska, M., &amp; Rapiński, J. (2021). A review of tree species classification based on airborne LiDAR data and applied classifiers. Remote Sensing, 13(3), 353. <a href="https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.3390%2Frs13030353">https://doi.org/10.3390/rs13030353</a></p>
+<p>• White, J. C., Chen, H. Z., Woods, M. E., Low, B., &amp; Nasonova, S. (2019). The Petawawa Research Forest: Establishment of a remote sensing supersite. The Forestry Chronicle, 95(4), 149–159. <a href="https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.5558%2Ftfc2019-024">https://doi.org/10.5558/tfc2019-024</a></p>
+<p>• White, J. C., Coops, N. C., Wulder, M. A., Vastaranta, M., Hilker, T., &amp; Tompalski, P. (2016). Remote sensing technologies for enhancing forest inventories: A review. Canadian Journal of Remote Sensing, 42(5), 619–641. <a href="https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.1080%2F07038992.2016.1207484">https://doi.org/10.1080/07038992.2016.1207484</a></p>
+<p>• White, J. C., Wulder, M. A., Varhola, A., Vastaranta, M., Coops, N. C., Cook, B. D., Pitt, D., &amp; Woods, M. (2013). A best practices guide for generating forest inventory attributes from airborne laser scanning data using an area-based approach. The Forestry Chronicle, 89(6), 722–723. <a href="https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.5558%2Ftfc2013-132">https://doi.org/10.5558/tfc2013-132</a></p>
+<p>• Government of Ontario Ontario. (1994). Crown Forest Sustainability Act, S.O. 1994, c.&nbsp;25. Retrieved from <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.ontario.ca%2Flaws%2Fstatute%2F94c25">https://www.ontario.ca/laws/statute/94c25</a></p>
 
 
 <!-- -->
@@ -847,7 +911,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   });
   </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Project 3: Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories"</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Project 3: Proposing a Method for Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories"</span></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
 <span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co">    theme: superhero</span></span>
@@ -866,7 +930,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Can airborne LiDAR (ALS) data be used to accurately predict dominant tree species at the stand level in the Petawawa Research Forest?</span>
 <span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Is LiDAR data alone sufficient for species classification, or would adding multispectral data improve model performance?</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Is LiDAR data alone sufficient for species classification, or would adding multi-spectral data improve model performance?</span>
 <span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a><span class="fu"># Data + Study Site Summary</span></span>
 <span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a></span>
@@ -886,7 +950,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Multi-Spectral Images:** <span class="pp">|</span> Landsat 8 <span class="pp">|</span> Band 2 (Blue); Band 3 (Green); Band 4 (Red); Band 5 (NIR); Band 6 (SWIR1); Band 7 (SWIR2) <span class="pp">|</span></span>
 <span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Ground Plots:** <span class="pp">|</span> Field Trip <span class="pp">|</span> Tree Species; Ground Plot Vectors <span class="pp">|</span></span>
 <span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a><span class="fu"># Method:</span></span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a><span class="fu"># Method</span></span>
 <span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>**1. Set up and Prepare Landscape Data (LiDAR/Multi-Spectral Images)**</span>
 <span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a></span>
@@ -1010,9 +1074,59 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-162"><a href="#cb4-162" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-163"><a href="#cb4-163" aria-hidden="true" tabindex="-1"></a><span class="ss">    -   </span>Validation Table</span>
 <span id="cb4-164"><a href="#cb4-164" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-165"><a href="#cb4-165" aria-hidden="true" tabindex="-1"></a><span class="fu"># Result:</span></span>
+<span id="cb4-165"><a href="#cb4-165" aria-hidden="true" tabindex="-1"></a><span class="fu"># Result</span></span>
 <span id="cb4-166"><a href="#cb4-166" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-167"><a href="#cb4-167" aria-hidden="true" tabindex="-1"></a><span class="fu"># </span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb4-167"><a href="#cb4-167" aria-hidden="true" tabindex="-1"></a><span class="fu">## Mapping the Dominant Species:</span></span>
+<span id="cb4-168"><a href="#cb4-168" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-169"><a href="#cb4-169" aria-hidden="true" tabindex="-1"></a>We expect that from our methods that we will be able to develop a province-wide map of dominant tree species. The dominant species in the PRF were successfully identified and visually displayed by the map below showing the distribution of dominance across the area of study.</span>
+<span id="cb4-170"><a href="#cb4-170" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-171"><a href="#cb4-171" aria-hidden="true" tabindex="-1"></a><span class="al">![Dominance of tree species accross the PRF](images/Dominance.png)</span>{fig-align="left"}</span>
+<span id="cb4-172"><a href="#cb4-172" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-173"><a href="#cb4-173" aria-hidden="true" tabindex="-1"></a><span class="al">![Visualizing the result with histogram](images/rank.png)</span>{fig-align="left"}</span>
+<span id="cb4-174"><a href="#cb4-174" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-175"><a href="#cb4-175" aria-hidden="true" tabindex="-1"></a><span class="al">![](images/petawawa.png)</span></span>
+<span id="cb4-176"><a href="#cb4-176" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-177"><a href="#cb4-177" aria-hidden="true" tabindex="-1"></a><span class="fu">## Is LiDAR Data Alone Sufficient for Species Classification:</span></span>
+<span id="cb4-178"><a href="#cb4-178" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-179"><a href="#cb4-179" aria-hidden="true" tabindex="-1"></a>We expect that the combination of LiDAR and spectral imagery will allow for a higher accuracy in differentiation between tree species and have provided example code to prove this. This will be much more suitable for applying to a cross-province species detection program.</span>
+<span id="cb4-180"><a href="#cb4-180" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-181"><a href="#cb4-181" aria-hidden="true" tabindex="-1"></a>::: panel-tabset</span>
+<span id="cb4-182"><a href="#cb4-182" aria-hidden="true" tabindex="-1"></a><span class="fu">## ALS-Only</span></span>
+<span id="cb4-183"><a href="#cb4-183" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-184"><a href="#cb4-184" aria-hidden="true" tabindex="-1"></a><span class="al">![Accuracy of tree species detection using only ALS data](images/ALSOnly.png)</span></span>
+<span id="cb4-185"><a href="#cb4-185" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-186"><a href="#cb4-186" aria-hidden="true" tabindex="-1"></a><span class="fu">## Multi-Spectral Images + ALS</span></span>
+<span id="cb4-187"><a href="#cb4-187" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-188"><a href="#cb4-188" aria-hidden="true" tabindex="-1"></a><span class="al">![Accuracy of tree species detection using a combination of Landsat-8 imagery with ALS](images/Landsat+ALS.png)</span></span>
+<span id="cb4-189"><a href="#cb4-189" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-190"><a href="#cb4-190" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-191"><a href="#cb4-191" aria-hidden="true" tabindex="-1"></a><span class="fu"># **Challenges &amp; Limitations**</span></span>
+<span id="cb4-192"><a href="#cb4-192" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-193"><a href="#cb4-193" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Rare Species: Some species were dropped from the model as they were too statistiscally insignficant. Furthermore, there may be species not found in PRF that are found elswhere in Ontario, thus not being accounted for in the model.</span>
+<span id="cb4-194"><a href="#cb4-194" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-195"><a href="#cb4-195" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>The training data set is not big enough</span>
+<span id="cb4-196"><a href="#cb4-196" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-197"><a href="#cb4-197" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Because this analysis uses polygons that represent the most dominant tree species within, the ratio of dominance is not known. Using single tree values would allow for a better understanding of the proportion of dominant tree species versus "other" in the area of study.</span>
+<span id="cb4-198"><a href="#cb4-198" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-199"><a href="#cb4-199" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Multispectral imagery has very coarse spatial resolution (Landsat-8), which means our model is limited as it cannot capture the fine spatial and spectral resolution. Landsat-8 was chosen because it is very accessible in North America.</span>
+<span id="cb4-200"><a href="#cb4-200" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-201"><a href="#cb4-201" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>The mask can be added to prevent the misclassification of water, barren land, or other special terrain types.</span>
+<span id="cb4-202"><a href="#cb4-202" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-203"><a href="#cb4-203" aria-hidden="true" tabindex="-1"></a><span class="fu"># **References**</span></span>
+<span id="cb4-204"><a href="#cb4-204" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-205"><a href="#cb4-205" aria-hidden="true" tabindex="-1"></a>• Natural Resources Canada (2025). Petawawa Research Forest (PRF) Open Data Portal. <span class="co">[</span><span class="ot">https://opendata.nfis.org/mapserver/PRF.html</span><span class="co">](https://www.google.com/url?q=https%3A%2F%2Fopendata.nfis.org%2Fmapserver%2FPRF.html)</span></span>
+<span id="cb4-206"><a href="#cb4-206" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-207"><a href="#cb4-207" aria-hidden="true" tabindex="-1"></a>• Fassnacht, F. E., Latifi, H., Stereńczak, K., Modzelewska, A., Lefsky, M., Waser, L. T., Straub, C., &amp; Ghosh, A. (2016). Review of studies on tree species classification from remotely sensed data. Remote Sensing of Environment, 186, 64–87. <span class="co">[</span><span class="ot">https://doi.org/10.1016/j.rse.2016.08.013</span><span class="co">](https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.rse.2016.08.013)</span></span>
+<span id="cb4-208"><a href="#cb4-208" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-209"><a href="#cb4-209" aria-hidden="true" tabindex="-1"></a>• Michałowska, M., &amp; Rapiński, J. (2021). A review of tree species classification based on airborne LiDAR data and applied classifiers. Remote Sensing, 13(3), 353. <span class="co">[</span><span class="ot">https://doi.org/10.3390/rs13030353</span><span class="co">](https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.3390%2Frs13030353)</span></span>
+<span id="cb4-210"><a href="#cb4-210" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-211"><a href="#cb4-211" aria-hidden="true" tabindex="-1"></a>• White, J. C., Chen, H. Z., Woods, M. E., Low, B., &amp; Nasonova, S. (2019). The Petawawa Research Forest: Establishment of a remote sensing supersite. The Forestry Chronicle, 95(4), 149–159. <span class="co">[</span><span class="ot">https://doi.org/10.5558/tfc2019-024</span><span class="co">](https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.5558%2Ftfc2019-024)</span></span>
+<span id="cb4-212"><a href="#cb4-212" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-213"><a href="#cb4-213" aria-hidden="true" tabindex="-1"></a>• White, J. C., Coops, N. C., Wulder, M. A., Vastaranta, M., Hilker, T., &amp; Tompalski, P. (2016). Remote sensing technologies for enhancing forest inventories: A review. Canadian Journal of Remote Sensing, 42(5), 619–641. <span class="co">[</span><span class="ot">https://doi.org/10.1080/07038992.2016.1207484</span><span class="co">](https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.1080%2F07038992.2016.1207484)</span></span>
+<span id="cb4-214"><a href="#cb4-214" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-215"><a href="#cb4-215" aria-hidden="true" tabindex="-1"></a>• White, J. C., Wulder, M. A., Varhola, A., Vastaranta, M., Coops, N. C., Cook, B. D., Pitt, D., &amp; Woods, M. (2013). A best practices guide for generating forest inventory attributes from airborne laser scanning data using an area-based approach. The Forestry Chronicle, 89(6), 722–723. <span class="co">[</span><span class="ot">https://doi.org/10.5558/tfc2013-132</span><span class="co">](https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.5558%2Ftfc2013-132)</span></span>
+<span id="cb4-216"><a href="#cb4-216" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-217"><a href="#cb4-217" aria-hidden="true" tabindex="-1"></a>• Government of Ontario Ontario. (1994). Crown Forest Sustainability Act, S.O. 1994, c. 25. Retrieved from <span class="co">[</span><span class="ot">https://www.ontario.ca/laws/statute/94c25</span><span class="co">](https://www.google.com/url?q=https%3A%2F%2Fwww.ontario.ca%2Flaws%2Fstatute%2F94c25)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

@@ -12,55 +12,25 @@ editor:
   markdown: 
     wrap: 72
 ---
+<h2>[Image design for reference:]{.text-primary}</h2>
+
+All images are intended for academic purposes, thus prioritizing static
+maps. Aesthetically, they favor simplicity, high recognizability, and
+dense information content.
+
+<br>
+
 
 <h2>[Proposal of examining The Species Composition of Petawawa Research
 Forest]{.text-primary}</h2>
-
-::::: columns
-::: {.column width="30%"}
-<h5>Research & Area of Interest:</h5>
 
 This project utilizes airborne laser scanning (ALS) data and provided
 climate databases, combined with Python-based Classification tools
 (sklearn-RandomForestClassifier), to rank dominant tree species within
 the Petawawa Research Forest (PRF) while investigating their approximate
 distribution patterns.
-:::
 
-::: {.column width="5%"}
-:::
-
-::: {.column width="65%"}
-![](images/petawawa_study_area.jpg){width="100%"} Research Area Overview
-:::
-:::::
-
-::::: columns
-::: {.column width="65%"}
 ![](images/petawawa.png){width="100%"}
-<br>
-![](images/rank.png){width="100%"} Both the map and histogram were
-generated using Python.
-:::
-
-::: {.column width="5%"}
-:::
-
-::: {.column width="30%"}
-<h5>Result:</h5>
-
-The results are quite clear: white pine is the most dominant species.
-However, it is worth noting that the current model is constrained by the
-limited training ground plots, resulting in an overall accuracy of only
-58%. Furthermore, the model incorrectly classifies unvegetated areas,
-such as water bodies, as a single species distribution. This aspect
-requires improvement. Nevertheless, the expected results still
-demonstrate the feasibility of our approach.
-:::
-:::::
-
-
-<br>
 <br>
 
 
@@ -82,17 +52,14 @@ https://github.com/Zijin1026/FCOR599-Term1Presentation/blob/main/FinalMap.ipynb
 
 
 <br>
-<br>
+
+
+
+
 
 
 <h2>[Image design for reference:]{.text-primary}</h2>
-
-All images are intended for academic purposes, thus prioritizing static
-maps. Aesthetically, they favor simplicity, high recognizability, and
-dense information content.
-
-
-
+Investigating the Impact of Dams on the Accessibility of Natural Salmon Habitats.The inserted window illustrates the unique behavior of flow paths within lake regions during hydrological analysis.
 
 ![](images/Layout_page-0001.jpg){width="100%"} <br>
 <br>

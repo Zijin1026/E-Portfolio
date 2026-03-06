@@ -75,7 +75,7 @@ format:
     <br>
     
 -   ::: fw-semibold
-    [Project 3: Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories]{.text-primary} 
+    [Project 3: Proposing a Method for Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories]{.text-primary} 
     :::
     
     ::::: columns

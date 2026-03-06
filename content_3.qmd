@@ -1,5 +1,5 @@
 ---
-title: "Project 3: Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories"
+title: "Project 3: Proposing a Method for Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories"
 format:
   html:
     theme: superhero
@@ -18,7 +18,7 @@ Traditionally, the identification of species relies on the multi-spectral remote
 
 -   Can airborne LiDAR (ALS) data be used to accurately predict dominant tree species at the stand level in the Petawawa Research Forest?
 
--   Is LiDAR data alone sufficient for species classification, or would adding multispectral data improve model performance?
+-   Is LiDAR data alone sufficient for species classification, or would adding multi-spectral data improve model performance?
 
 # Data + Study Site Summary
 
@@ -38,7 +38,7 @@ The PRF, located in Ontario near the Quebec border about 200 km northwest of Ott
 | **Multi-Spectral Images:** | Landsat 8 | Band 2 (Blue); Band 3 (Green); Band 4 (Red); Band 5 (NIR); Band 6 (SWIR1); Band 7 (SWIR2) |
 | **Ground Plots:** | Field Trip | Tree Species; Ground Plot Vectors |
 
-# Method:
+# Method
 
 **1. Set up and Prepare Landscape Data (LiDAR/Multi-Spectral Images)**
 
@@ -162,6 +162,56 @@ with rasterio.open(out_class, 'w', **profile) as dst:
 
     -   Validation Table
 
-# Result:
+# Result
 
-# 
+## Mapping the Dominant Species:
+
+We expect that from our methods that we will be able to develop a province-wide map of dominant tree species. The dominant species in the PRF were successfully identified and visually displayed by the map below showing the distribution of dominance across the area of study.
+
+![Dominance of tree species accross the PRF](images/Dominance.png){fig-align="left"}
+
+![Visualizing the result with histogram](images/rank.png){fig-align="left"}
+
+![](images/petawawa.png)
+
+## Is LiDAR Data Alone Sufficient for Species Classification:
+
+We expect that the combination of LiDAR and spectral imagery will allow for a higher accuracy in differentiation between tree species and have provided example code to prove this. This will be much more suitable for applying to a cross-province species detection program.
+
+::: panel-tabset
+## ALS-Only
+
+![Accuracy of tree species detection using only ALS data](images/ALSOnly.png)
+
+## Multi-Spectral Images + ALS
+
+![Accuracy of tree species detection using a combination of Landsat-8 imagery with ALS](images/Landsat+ALS.png)
+:::
+
+# **Challenges & Limitations**
+
+-   Rare Species: Some species were dropped from the model as they were too statistiscally insignficant. Furthermore, there may be species not found in PRF that are found elswhere in Ontario, thus not being accounted for in the model.
+
+-   The training data set is not big enough
+
+-   Because this analysis uses polygons that represent the most dominant tree species within, the ratio of dominance is not known. Using single tree values would allow for a better understanding of the proportion of dominant tree species versus "other" in the area of study.
+
+-   Multispectral imagery has very coarse spatial resolution (Landsat-8), which means our model is limited as it cannot capture the fine spatial and spectral resolution. Landsat-8 was chosen because it is very accessible in North America.
+
+-   The mask can be added to prevent the misclassification of water, barren land, or other special terrain types.
+
+# **References**
+
+• Natural Resources Canada (2025). Petawawa Research Forest (PRF) Open Data Portal. [https://opendata.nfis.org/mapserver/PRF.html](https://www.google.com/url?q=https%3A%2F%2Fopendata.nfis.org%2Fmapserver%2FPRF.html)
+
+• Fassnacht, F. E., Latifi, H., Stereńczak, K., Modzelewska, A., Lefsky, M., Waser, L. T., Straub, C., & Ghosh, A. (2016). Review of studies on tree species classification from remotely sensed data. Remote Sensing of Environment, 186, 64–87. [https://doi.org/10.1016/j.rse.2016.08.013](https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.rse.2016.08.013)
+
+• Michałowska, M., & Rapiński, J. (2021). A review of tree species classification based on airborne LiDAR data and applied classifiers. Remote Sensing, 13(3), 353. [https://doi.org/10.3390/rs13030353](https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.3390%2Frs13030353)
+
+• White, J. C., Chen, H. Z., Woods, M. E., Low, B., & Nasonova, S. (2019). The Petawawa Research Forest: Establishment of a remote sensing supersite. The Forestry Chronicle, 95(4), 149–159. [https://doi.org/10.5558/tfc2019-024](https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.5558%2Ftfc2019-024)
+
+• White, J. C., Coops, N. C., Wulder, M. A., Vastaranta, M., Hilker, T., & Tompalski, P. (2016). Remote sensing technologies for enhancing forest inventories: A review. Canadian Journal of Remote Sensing, 42(5), 619–641. [https://doi.org/10.1080/07038992.2016.1207484](https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.1080%2F07038992.2016.1207484)
+
+• White, J. C., Wulder, M. A., Varhola, A., Vastaranta, M., Coops, N. C., Cook, B. D., Pitt, D., & Woods, M. (2013). A best practices guide for generating forest inventory attributes from airborne laser scanning data using an area-based approach. The Forestry Chronicle, 89(6), 722–723. [https://doi.org/10.5558/tfc2013-132](https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.5558%2Ftfc2013-132)
+
+• Government of Ontario Ontario. (1994). Crown Forest Sustainability Act, S.O. 1994, c. 25. Retrieved from [https://www.ontario.ca/laws/statute/94c25](https://www.google.com/url?q=https%3A%2F%2Fwww.ontario.ca%2Flaws%2Fstatute%2F94c25)
