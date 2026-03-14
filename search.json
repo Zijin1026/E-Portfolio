@@ -9,9 +9,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Zijin(Sarah) Xiao",
+    "title": "",
     "section": "",
-    "text": "Hi there people,\n\nI am a new Master graduate from UBC Master of Geomatics for Environmental Management (MGEM) program and ready to participate and contribute to my future workplace!!!! With past 5 years of study in Geography and GIS_related field, I am confident to show I have gotten strong analytical and critical thinking skills, specializing in data visualization and cartographic design. Proficient in a wide range of geospatial software, office tools and picture editing platforms, including ESRI, ArcGIS Pro, QGIS, Microsoft Office Suite, Adobe Illustrator, etc. Proficient in coding with Python and R for geospatial data analysis, automation, and statistical modeling. Demonstrated strengths in multitasking, time management, and team collaboration, with a proven ability to work efficiently in project-oriented environments.\nOver the past five years of my academic career, I have participated in numerous projects related to remote sensing, programming, and GIS. You can explore the “Map Gallery”/Project Conetent” section for further details."
+    "text": "Code"
   },
   {
     "objectID": "content_2.html",
@@ -180,5 +180,19 @@
     "title": "Project 3: Proposing a Method for Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories",
     "section": "Is LiDAR Data Alone Sufficient for Species Classification:",
     "text": "Is LiDAR Data Alone Sufficient for Species Classification:\nWe expect that the combination of LiDAR and spectral imagery will allow for a higher accuracy in differentiation between tree species and have provided example code to prove this. This will be much more suitable for applying to a cross-province species detection program.\n\nALS-OnlyMulti-Spectral Images + ALS\n\n\n\n\n\nAccuracy of tree species detection using only ALS data\n\n\n\n\n\n\n\nAccuracy of tree species detection using a combination of Landsat-8 imagery with ALS"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "",
+    "section": "Projects",
+    "text": "Projects\nIn these five years, I have also participated in numerous projects related to remote sensing, programming, and GIS. You can explore the “Map Gallery”/Project Conetent” section for further details, or access the content with the links below:\n\n\n  \n    \n      \n    \n    \n      Project 1\n      \n        Evaluating and Comparing the Performance of VRI Data and LiDAR-derived Stand Metrics across Different Geospatial Features in MKRF, BC\n      \n    \n  \n\n  \n    \n      \n    \n    \n      Project 2\n      \n        Remote Sensing Used in Smart Urban Settings\n      \n    \n  \n\n  \n    \n      \n    \n    \n      Project 3\n      \n        Proposing a Method for Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories"
+  },
+  {
+    "objectID": "index.html#projects-1",
+    "href": "index.html#projects-1",
+    "title": "Zijin(Sarah) Xiao",
+    "section": "Projects",
+    "text": "Projects\n\n  \n    \n      \n    \n    \n      Project 1\n      \n        Evaluating and Comparing the Performance of VRI Data and LiDAR-derived Stand Metrics across Different Geospatial Features in MKRF, BC\n      \n    \n  \n  \n    \n      \n    \n    \n      Project 2\n      \n        Remote Sensing Used in Smart Urban Settings\n      \n    \n  \n  \n    \n      \n    \n    \n      Project 3\n      \n        Proposing a Method for Mapping Tree Species Across the Petawawa Research Forest Using LiDAR for Forest Inventories"
   }
 ]

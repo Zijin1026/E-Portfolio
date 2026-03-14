@@ -113,6 +113,40 @@ The full-screen GEE application is available here in case you're interested.
   
   
   
+---
+title: "Zijin(Sarah) Xiao"
+image: images/me.jpg
+about:
+  template: trestles
+  image-width: 20em
+  links: 
+    - icon: linkedin
+      text: LinkedIn
+      href: www.linkedin.com/in/sarah-xiao-4a40b72ba
+    - icon: github
+      text: GitHub
+      href: https://github.com/Zijin1026
+    - icon: envelope-at
+      text: Email
+      href: xiaozijin2024@gmail.com
+format:
+  html:
+    theme: superhero
+    css: styles.css
+---
+
+
+<h2>Hi there people,</h2>
+
+I am a new Master graduate from UBC Master of Geomatics for Environmental Management (MGEM) program and ready to participate and contribute to my future workplace!!!!
+With past 5 years of study in Geography and GIS_related field, I am confident to show I have gotten strong analytical and critical thinking skills, specializing in data visualization and cartographic design. Proficient in a wide range of geospatial software, office tools and picture editing platforms, including ESRI, ArcGIS Pro, QGIS, Microsoft Office Suite, Adobe Illustrator, etc. Proficient in coding with Python and R for geospatial data analysis, automation, and statistical modeling. Demonstrated strengths in multitasking, time management, and team collaboration, with a proven ability to work efficiently in project-oriented environments.
+
+
+Over the past five years of my academic career, I have participated in numerous projects related to remote sensing, programming, and GIS. You can explore the "Map Gallery"/Project Conetent" section for further details.
+
+
+## Projects
+  
   
   
   
