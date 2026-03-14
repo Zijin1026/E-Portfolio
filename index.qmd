@@ -7,6 +7,7 @@ format:
       - text: |
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 ---
+
 ```{=html}
 
 <div class="top-section">
@@ -33,23 +34,24 @@ format:
 
   <div class="intro-right">
     <p>
-      <h5>Hi there people,<h5>
+      <h3>Hi There,</h3>
     </p>
     
     <p>
-      I am a new Master graduate from UBC Master of Geomatics for Environmental Management (MGEM) program and ready to                participate and contribute to my future workplace!
+      I am a new Master graduate from UBC Master of Geomatics for Environmental Management (MGEM) program and ready to participate and contribute to my future workplace!
     </p>
     
     <p>
-      With past 5 years of study in Geography and GIS-related field, I am confident to show I have gotten strong analytical and       critical thinking skills, specializing in data visualization and cartographic design. Proficient in a wide range of            geospatial software, office tools and picture editing platforms, including ESRI, ArcGIS Pro, QGIS, Microsoft Office            Suite, Adobe Illustrator, etc. Proficient in coding with Python and R for geospatial data analysis, automation, and            statistical modeling. Demonstrated strengths in multitasking, time management, and team collaboration, with a proven           ability to work efficiently in project-oriented environments.
+      With past 5 years of study in Geography and GIS-related field, I am confident to show I have gotten strong analytical and critical thinking skills, specializing in data visualization and cartographic design. Proficient in a wide range of geospatial software, office tools and picture editing platforms, including ESRI, ArcGIS Pro, QGIS, Microsoft Office Suite, Adobe Illustrator, etc. Proficient in coding with Python and R for geospatial data analysis, automation, and statistical modeling. Demonstrated strengths in multitasking, time management, and team collaboration, with a proven ability to work efficiently in project-oriented environments.
     </p>
   </div>
 </div>
 ```
 
-
 ## Projects
-In these five years, I have also participated in numerous projects related to remote sensing, programming, and GIS. You        can explore the "Map Gallery"/Project Conetent" section for further details, or access the content with the links below:
+
+In these five years, I have also participated in numerous projects related to remote sensing, programming, and GIS. You can explore the "Map Gallery"/Project Conetent" section for further details, or access the content with the links below:
+
 ```{=html}
 <div class="project-grid">
 
@@ -91,7 +93,3 @@ In these five years, I have also participated in numerous projects related to re
 
 </div>
 ```
-
-
-
-
